@@ -18,7 +18,7 @@
 [![WALLYJAYTECH](https://graph.org/file/99c8f663a3df96a5a54de.jpg)](https://youtube.com/@wallyjaytechy)
 
 <p align="center">
-<a href="https://github.com/wallyjaytech"><img title="Author" src="https://img.shields.io/badge/CREATOR-WALLY JAY-black.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/wallyjaytechy"><img title="Author" src="https://img.shields.io/badge/CREATOR-WALLY JAY-black.svg?style=for-the-badge&logo=github"></a>
 
 ### ℹ️ **About WALLYJAYTECH-MD**
 WALLYJAYTECH-MD is a Cool Multi-Device WhatsApp bot developed by [Wally jay](https://github.com/wallyjaytechy). It offers a wide range of extraordinary features, making it an advanced and user-friendly bot for various purposes.
@@ -54,7 +54,7 @@ Thanks to all contributors! 🚀
 
 ## 💲 ```Donate Me```
 
-- [`Buy ME A Coffee ☕ `](https://ibb.co/gw371BN/donate.jpg)
+- [`Buy ME A Coffee ☕ `](https://ibb.co/gw371BN)
 
 <p align="left">
 Scan qr code from the above button, u can pay through Buy Me A Coffee.
