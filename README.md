@@ -31,7 +31,7 @@ WALLYJAYTECH-MD is a Cool Multi-Device WhatsApp bot developed by [Wally jay](htt
 <a href="https://github.com/wallyjaytechy/WALLYJAYTECH-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/wallyjaytechy/WALLYJAYTECH-MD?color=blue&style=flat-square"></a>
 <a href="https://github.com/wallyjaytechy/WALLYJAYTECH-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/wallyjaytechy/WALLYJAYTECH-MD?color=red&style=flat-square"></a>
 <a href="https://github.com/wallyjaytechy/WALLYJATECH-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/wallyjaytechy/WALLYJAYTECH-MD?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/wallyjaytechy/WALLYJAYTECH-MD"><img title="Open Source" src="https://img.shields.io/badge/Author-wallyjay%20Ser.-red?v=103"></a>
+<a href="https://github.com/wallyjaytechy/WALLYJAYTECH-MD"><img title="Open Source" src="https://img.shields.io/badge/Author-wally%20jay.-red?v=103"></a>
 <a href="https://github.com/wallyjaytechy/WALLYJAYTECH-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/wallyjaytechy/WALLYJAYTECH-MD?style=flat-square&color=green"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fwallyjaytechy%2FWALLYJAYTECH-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
 <a href="https://github.com/wallyjaytech/WALLYJAYTECH-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
@@ -54,7 +54,7 @@ Thanks to all contributors! 🚀
 
 ## 💲 ```Donate Me```
 
-- [`Buy ME A Coffee ☕ `](https://i.ibb.co/SBXWb1R/donate.jpg)
+- [`Buy ME A Coffee ☕ `](https://ibb.co/gw371BN/donate.jpg)
 
 <p align="left">
 Scan qr code from the above button, u can pay through Buy Me A Coffee.
@@ -78,7 +78,7 @@ Scan qr code from the above button, u can pay through Buy Me A Coffee.
 ## 🛠️ `Installation Methods`
 1. Fork the repo
     <br>
-<a href='https://github.com/salmanytofficial/XLICON-V3-MD/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://github.com/wallyjaytechy/WALLYJAYTECH-MD/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 2. Get Creds Json (SERVER 1)
     <br>
