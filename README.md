@@ -5,7 +5,7 @@
 <br>
 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+25+Charted&weight=900&size=50&pause=1000&color=F5F711&random=false&width=435&lines=It's++WALLYJAYTECH-MD;Multi-Ddevice+Whatsapp+Bot;Developed+By+WALLY+JAY)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=danfo&weight=900&size=50&pause=1000&color=F5F711&background=201EFF00&center=true&random=false&width=720&height=420&lines=It's++WALLYJAYTECH-MD;Multi-Ddevice+Whatsapp+Bot;Developed+By+WALLY+JAY)](https://git.io/typing-svg)
 <p align="center">
   
 >WALLYJAYTECH-MD is based on :
