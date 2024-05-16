@@ -5,7 +5,7 @@
 <br>
 
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=3F00FF&center=true&width=900&height=100&lines=Its%20XLICON-V3-MD;%20Multi-Device%20WhatsApp%20Bot;%20Developed%20By%20SALMAN%20AHMAD)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F5F711&random=false&width=435&lines=It's++WALLYJAYTECH-MD;MultiDdevice+Whatsapp+Bot;Developed+By+WALLY+JAY)](https://git.io/typing-svg))
 <p align="center">
   
 >WALLYJAYTECH-MD is based on :
