@@ -9,13 +9,13 @@
 <p align="center">
   
 >WALLYJAYTECH-MD is based on :
->- [Cheems V10](https://github.com/DGXeon) by [DGXeon](https://github.com/DGXeon) (License: Apache License 2.0)
+>- [whatsap bot md](https://github.com/wallyjaytechy) by [wallyjaytech](https://github.com/wallyjaytechy) (License: Apache License 2.0)
 >
-> :octocat: Don't forget to check out! :point_right: [Cheems V10](https://github.com/DGXeon)
+> :octocat: Don't forget to check out! :point_right: [WALLYJAYTECH-MD](https://github.com/wallyjaytechy)
 </p>
 
 ## 🌟 `Bot Intro and Features`
-[![WALLYJAYTECH](https://i.ibb.co/sgdGM1P/XLICON-V3.jpg)](https://youtube.com/@wallyjaytechy)
+[![WALLYJAYTECH](https://graph.org/file/99c8f663a3df96a5a54de.jpg)](https://youtube.com/@wallyjaytechy)
 
 <p align="center">
 <a href="https://github.com/wallyjaytech"><img title="Author" src="https://img.shields.io/badge/CREATOR-WALLY JAY-black.svg?style=for-the-badge&logo=github"></a>
