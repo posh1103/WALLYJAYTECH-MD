@@ -57,7 +57,7 @@ Thanks to all contributors! 🚀
 - [`Buy ME A Coffee ☕ `](https://ibb.co/gw371BN)
 
 <p align="left">
-Scan qr code from the above button, u can pay through Buy Me A Coffee.
+get my bank account details from the above button, you can pay through Buy Me A Coffee if you are non-nigerian you can contact me through any of my social media to buy me a coffee.
 </p>
 
 
