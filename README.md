@@ -179,11 +179,7 @@ NOW Deploy👇
 ## DEPLOY IN KOYEB    
 [![Deploy on Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/auth/signup)  
 
-## `CREDITS` 
-<div><button id="boton" type="button">Baileys - By WhiskeySockets & adiwajshing</button></div>
-<a href="https://github.com/WhiskeySockets/Baileys"><img src="https://github.com/WhiskeySockets.png" width="150" height="150" alt="adiwajshing"/></a>
-<div><button id="boton" type="button">Base  - By CHEEMS BOTZ</button></div>
-<a href="https://github.com/Guru322"><img src="https://github.com/DGXeon.png" width="150" height="150" alt="Xeon"/></a>
+
 
 
 ## 📛 `OWNER` 
@@ -193,27 +189,21 @@ NOW Deploy👇
 <br>
 `Development , Maintainence , Bot Updates`
 
-## 🏷️ `Main Dev` 
-<a href="https://github.com/V-E-N-O-X"><img src="https://github.com/V-E-N-O-X.png" width="250" height="250" alt="VENOX"/></a>
-  
-**XLICON-V3** - By `Slahser Senpai`
-<br>
-`Development , Features Enhancement , Plugin Debbuging`
+
 
 -------
 
 ## 🌈 `Support Us`
-- **Mail Us:** [salmansheikh2500@gmail.com](mailto:salmansheikh2500@gmail.com)
+- **Mail Us:** [wallyjay123@gmail.com](mailto:wallyjay123@gmail.com)
 - **Join Our Support Group:**
  <p align="center">
    
-  ## ``Support Group``
+  ## ``Support Dm``
    
-- [`XLICON Community`](https://chat.whatsapp.com/J8U0HyBlokoC14UwmisO0b)
-- [`Official Group`](https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk)
-- [`Support Gc`](https://chat.whatsapp.com/Lda5nx04JZJJsKsibu0KFR)
+- [`message me`](https://wa.me/2348144317152)
 
-<a aria-label="Join our chats" href="https://wa.me/923184070915?text=Hi!! SalmanAhmad Sir, I need Your Help" target="_blank">
+
+<a aria-label="Join our chats" href="https://wa.me/2348144317152?text=Hi!! wally jay Sir, I need Your Help" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Owner%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
