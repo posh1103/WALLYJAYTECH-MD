@@ -187,9 +187,9 @@ NOW Deploy👇
 
 
 ## 📛 `OWNER` 
-<a href="https://github.com/salmanytofficial"><img src="https://github.com/salmanytofficial.png" width="250" height="250" alt="Salman Ahmad"/></a>
+<a href="https://github.com/wallyjaytechy"><img src="https://github.com/wallyjaytechy.png" width="250" height="250" alt="Wally Jay"/></a>
   
-**XLICON-V3** - By `salmanytofficial`
+**WALLYJAYTECH-MD** - By `wallyjaytechy`
 <br>
 `Development , Maintainence , Bot Updates`
 
