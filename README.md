@@ -23,12 +23,12 @@
 ### ℹ️ **About WALLYJAYTECH-MD**
 WALLYJAYTECH-MD is a Cool Multi-Device WhatsApp bot developed by [Wally jay](https://github.com/wallyjaytechy). It offers a wide range of extraordinary features, making it an advanced and user-friendly bot for various purposes.
 
-<p align="center"><img src="https://profile-counter.glitch.me/{XLICON-V3}/count.svg" alt="SALMAN AHMAD :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{WALLYJAYTECHY-MD}/count.svg" alt="WALLY JAY :: Visitor's Count" /></p>
 
 ### 📊 **Bot Statistics**
 <p align="center">
-<a href="https://github.com/salmanytofficial/followers"><img title="Followers" src="https://img.shields.io/github/followers/salmanytofficial?color=red&style=flat-square"></a>
-<a href="https://github.com/salmanytofficial/XLICON-V3-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/salmanytofficial/XLICON-V3-MD?color=blue&style=flat-square"></a>
+<a href="https://github.com/wallyjaytechy/followers"><img title="Followers" src="https://img.shields.io/github/followers/wallyjaytechy?color=red&style=flat-square"></a>
+<a href="https://github.com/wallyjaytechy/WALLYJAYTECH-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/wallyjaytechy/WALLYJAYTECH-MD?color=blue&style=flat-square"></a>
 <a href="https://github.com/salmanytofficial/XLICON-V3-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/salmanytofficial/XLICON-V3-MD?color=red&style=flat-square"></a>
 <a href="https://github.com/salmanytofficial/XLICON-V3-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/salmanytofficial/XLICON-V3-MD?label=Watchers&color=blue&style=flat-square"></a>
 <a href="https://github.com/salmanytofficial/XLICON-V3-MD"><img title="Open Source" src="https://img.shields.io/badge/Author-Salman%20Ser.-red?v=103"></a>
