@@ -1,19 +1,19 @@
 {
-    "name": "Xlicon-V3-MD",
+    "name": "WALLYJAYTECH-MD",
     "version": "3.0",
-    "description": "Whatsapp Bot By SalmanSer",
+    "description": "Whatsapp Bot By Wally Jay",
     "main": "index.js",
     "type": "commonjs",
     "directories": {
         "lib": "lib",
         "src": "src",
-        "media": "XliconMedia"
+        "media": "WallyMedia"
     },
     "scripts": {
         "code": "node main.js",
         "start": "node index.js"
     },
-    "author": "salmanytofficial",
+    "author": "wallyjaytechy",
     "license": "MIT",
     "dependencies": {
         "@whiskeysockets/baileys": "^6.6.0",
