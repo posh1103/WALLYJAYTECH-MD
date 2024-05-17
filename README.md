@@ -84,7 +84,7 @@ get my bank account details from the above button, you can pay through Buy Me A 
 
 2. Get Creds Json (SERVER)
     <br>
-<a href='https://replit.com/@S4SalmanYt/XLICON-V3-PAIRING' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://replit.com/@wallyjay123/WALLYJAYTECH-PAIRING' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
 ## 🚀 `Deployments`
