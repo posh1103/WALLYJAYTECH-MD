@@ -10,7 +10,7 @@
 
  
 
-FROM quay.io/wallyjaytech/wallyjaytech-md
+FROM quay.io/suhailtechinfo/suhail-v2
 RUN git clone https://github.com/wallyjaytechy/Wallyjaytech-Md /root/smdd
 RUN rm -rf /root/smdd/.git
 WORKDIR /root/smdd
