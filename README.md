@@ -39,7 +39,7 @@ WALLYJAYTECH-MD is a Cool Multi-Device WhatsApp bot developed by [Wally jay](htt
 <p align='center'>
 </p>
 <p align="center">
-  <a href="https://github.com/wallyjaytechy/wallyjaytech-m"><b>wallyjaytech-m</b></a> Support Deploy On...
+  <a href="https://github.com/wallyjaytechy/wallyjaytech-m"><b>wallyjaytech-md</b></a> Support Deploy On...
 </p>
 
 <p align="center">
@@ -55,7 +55,7 @@ WALLYJAYTECH-MD is a Cool Multi-Device WhatsApp bot developed by [Wally jay](htt
 <p align="center">
   <a href="https://youtu.be/3NdJb6_1cJM"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
 </p>
-<p align="center">Need help? please create an <a href="https://github.com/SuhailTechInfo/Suhail-Md/issues">issue</a></p>  
+<p align="center">Need help? please create an <a href="https://github.com/wallyjaytechy/wallyjaytech-md/issues">issue</a></p>  
 
 ####
 
