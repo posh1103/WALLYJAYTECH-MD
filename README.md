@@ -159,11 +159,11 @@ get my bank account details from the above button, you can pay through Buy Me A 
 
 5. If You don't have a account in Glitch. Create a account.
     <br>
-<a href='https://www.glitch.com/signup' target="_blank"><img alt='Glitch' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=opera' width="96.35" height="28"/></a></p>
+<a href='https://www.glitch.com/signup' target="_blank"><img alt='Glitch' src='https://img.shields.io/badge/glitch-033604?style=for-the-badge&logo=glitch&logoColor=darkred' width="96.35" height="28"/></a></p>
 
 6. Now Deploy
     <br>
-<a href='https://suhail-web01.vercel.app/deploy?platform=glitch' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=opera' width="96.35" height="28"/></a></p>
+<a href='https://suhail-web01.vercel.app/deploy?platform=glitch' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/glitch-033604?style=for-the-badge&logo=glitch&logoColor=darkred' width="96.35" height="28"/></a></p>
 
 #### DEPLOY TO RAILWAY
 
