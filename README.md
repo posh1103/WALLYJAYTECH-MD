@@ -38,7 +38,9 @@ WALLYJAYTECH-MD is a Cool Multi-Device WhatsApp bot developed by [Wally jay](htt
 </p>
 <p align='center'>
 </p>
-
+<p align="center">
+  <a href="https://github.com/wallyjaytechy/wallyjaytech-m"><b>wallyjaytech-m</b></a> Support Deploy On...
+</p>
   
 ####
 
