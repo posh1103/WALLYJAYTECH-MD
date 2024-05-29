@@ -259,8 +259,8 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
   
    5. Clone Repo and install required packages
       ```
-      git clone https://github.com/SuhailTechInfo/Suhail-Md
-      cd Suhail-Md
+      git clone https://github.com/wallyjaytechy/Wallyjaytech-Md
+      cd Wallyjaytech-Md
       yarn install --network-concurrency 1
       ```
 
@@ -272,15 +272,15 @@ Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
       copy paste lines below.
 
       ```
-      OWNER_NUMBER="923184474176"
+      OWNER_NUMBER="2348144317152"
       SESSION_ID = "SESSION_85_23_59_01_kjgfgfclhj"
       THUMB_IMAGE = "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg"
-      OWNER_NAME = "Suhail"
+      OWNER_NAME = "Wally"
       PREFIX = .
       WARN_COUNT = 3
       DISABLE_PM = "false"
-      THEME= "SUHAIL"
-      MODE = "public"
+      THEME= "WALLYJAYTECH"
+      MODE = "private"
       ANTILINK_VALUES = "https://,chat.whatsapp.com"
       
       ```
