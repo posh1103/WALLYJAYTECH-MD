@@ -15,8 +15,7 @@
 </p>
 
 ## 🌟 `Bot Intro and Features`
-<h4 align="center"> ✔️ Fixed Heroku Ban Problem ✔️</h4> 
-[![WALLYJAYTECH](https://graph.org/file/99c8f663a3df96a5a54de.jpg)](https://youtube.com/@wallyjaytechy)
+<h4 align="center"> ✔️ Fixed Heroku Ban Problem ✔️</h4> [![WALLYJAYTECH](https://graph.org/file/99c8f663a3df96a5a54de.jpg)](https://youtube.com/@wallyjaytechy)
 
 <p align="center">
 <a href="https://github.com/wallyjaytechy"><img title="Author" src="https://img.shields.io/badge/CREATOR-WALLY JAY-black.svg?style=for-the-badge&logo=github"></a>
