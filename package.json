@@ -5,10 +5,10 @@
    "main": "index.js",
    "type": "commonjs",  
    "scripts": {
-            "run": "pm2 start . --deep-monitoring --attach --name wallyjaytech || node .",
-            "wallyjaytech": "pm2 start . --deep-monitoring --attach --name wallyjaytech || node .",
-            "start": "pm2 start . --attach --name wallyjaytech",
-            "stop": "pm2 stop wallyjaytech",
+            "run": "pm2 start . --deep-monitoring --attach --name Wallyjaytech || node .",
+            "wallyjaytech": "pm2 start . --deep-monitoring --attach --name Wallyjaytech || node .",
+            "start": "pm2 start . --attach --name Wallyjaytech",
+            "stop": "pm2 stop Wallyjaytech",
             "old-heroku-postbuild": "git clone https://github.com/Wallyjaytechy/Wallyjaytech-Md.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
             "fis-heroku-postbuild": "git clone https://github.com/Wallyjaytechy/Wallyjaytech-Md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
             "dbs--postinstall": "npx puppeteer@latest install --y"
