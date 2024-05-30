@@ -143,7 +143,7 @@ get my bank account details from the above button, you can pay through Buy Me A 
 
 2. Now Deploy
     <br>
-    <a href='https://suhail-web01.vercel.app/deploy?platform=repl' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
+    <a href='https://replit.com/@wallyjaytech/WALLYJAYTECH-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 
 
