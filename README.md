@@ -165,7 +165,7 @@ get my bank account details from the above button, you can pay through Buy Me A 
 
 6. Now Deploy
     <br>
-<a href='https://suhail-web01.vercel.app/deploy?platform=glitch' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/glitch-033604?style=for-the-badge&logo=glitch&logoColor=darkred' width="96.35" height="28"/></a></p>
+<a href='https://glitch.com/edit/#!/import/github/Wallyjaytechy/Wallyjaytech-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/glitch-033604?style=for-the-badge&logo=glitch&logoColor=darkred' width="96.35" height="28"/></a></p>
 
 #### DEPLOY TO RAILWAY
 
