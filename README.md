@@ -175,7 +175,7 @@ get my bank account details from the above button, you can pay through Buy Me A 
 
 8. Now Deploy
     <br>
-<a href='https://suhail-web01.vercel.app/deploy?platform=railway' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=railway' width="96.35" height="28"/></a></p>
+<a href='https://railway.app/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=railway' width="96.35" height="28"/></a></p>
 
 
 #### DEPLOY TO RENDER
