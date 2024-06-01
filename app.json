@@ -3,7 +3,7 @@
   "description": "I am Wallyjaytech-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/wallyjaytechy",
   "logo": "https://telegra.ph/file/644e57bacdc8fc5a8f8ef.jpg",
     "keywords": ["whatsappbot", "Wallyjaytechmd", "Wallyjaytech Md bot", "Wallyjaytech-Md", "WallyjaytechWhatsappBot", "WallyjaytechWaBot","WallyjaytechMD","Wallyjaytech Md Whatsapp Bot","multi device"],
-  "success_url": "/wallyjaytech/",
+  "success_url": "/suhail/",
   "app_url": "/qr/",
   "stack":"container",
   "env": {
