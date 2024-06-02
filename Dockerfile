@@ -10,13 +10,6 @@
 
  
 
-FROM quay.io/SuhailTechInfo/SuhailTechInfo-v2
-RUN git clone https://github.com/wallyjaytechy/WALLYJAYTECH-MD-V1 /root/smdd
-RUN rm -rf /root/smdd/.git
-WORKDIR /root/smdd
-RUN npm install
-EXPOSE 8000
-CMD ["npm","start" ] 
 
 
 
