@@ -1,6 +1,5 @@
 {
    "name": "wallyjaytech-md",
-   "version": "1.3.7",
    "description": "Multi device whatsapp bot.",
    "main": "index.js",
    "type": "commonjs",  
