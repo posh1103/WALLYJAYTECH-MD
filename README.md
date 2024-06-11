@@ -120,8 +120,6 @@ get my bank account details from the above button, you can pay through Buy Me A 
 <a href='https://replit.com/@wallyjaytech/BAILEYS-QR' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
-***Get Mongodb_URI from [`Mongodb site`](https://www.mongodb.com/)
-
 
 ## 🚀 `Deployments`
 #### DEPLOY TO HEROKU 
