@@ -37,22 +37,7 @@ WALLYJAYTECH-MD is a Cool Multi-Device WhatsApp bot developed by [Wally jay](htt
 <a href="https://github.com/wallyjaytech/WALLYJAYTECH-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 <p align='center'>
-</p>
-<p align="center">
-  <a href="https://github.com/wallyjaytechy/wallyjaytech-m"><b>wallyjaytech-md</b></a> Support Deploy On...
-</p>
 
-<p align="center">
-  <a href="https://suhail-web01.vercel.app/deploy?platform=railway"><img src="https://img.shields.io/badge/railway-3e164f?style=for-the-badge&logo=railway&logoColor=0B0D0E"></a>
-</p>
-<p align="center">
-  <a href="https://suhail-web01.vercel.app/deploy?platform=heroku"> <img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"> </a>
-  <a href="https://suhail-web01.vercel.app/deploy?platform=repl"  > <img src="https://img.shields.io/badge/replit-253c99?style=for-the-badge&logo=replit&logoColor=F26207"> </a>
-  <a href="https://suhail-web01.vercel.app/deploy?platform=koyeb" > <img src="https://img.shields.io/badge/koyeb-033604?style=for-the-badge&logo=koyeb&logoColor=white">    </a>
- <a href="https://suhail-web01.vercel.app/deploy?platform=glitch" > <img src="https://img.shields.io/badge/glitch-033604?style=for-the-badge&logo=glitch&logoColor=darkred"></a>
-</p>
-<p align="center">
-  <a href="https://youtu.be/3NdJb6_1cJM"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
 </p>
 <p align="center">Need help? please create an <a href="https://github.com/wallyjaytechy/wallyjaytech-md/issues">issue</a></p>  
 
