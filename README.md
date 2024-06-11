@@ -226,7 +226,7 @@ NOW Deploy👇
   
 **WALLYJAYTECH-MD** - By `Wally Jay`
 <br>
-`Ajibade Adewale Joseph, A social Science Student:Psychologist`
+`Ajibade Adewale Joseph, A social Science Student:Psychologist, Nigeria Osun`
 
 
 
