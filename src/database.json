@@ -1,31 +1,31 @@
 {
   "users": {
-    "923184070915@s.whatsapp.net": {
-      "serialNumber": "0eae1af5145d445f4e7a69739aa2e971",
+    "2348144317152@s.whatsapp.net": {
+      "serialNumber": "",
       "title": "Premium",
       "afkTime": -1,
       "badword": 0,
       "afkReason": "",
-      "nick": "Oke",
+      "nick": "Ok",
       "premium": "true",
       "limit": 1000,
       "totalLimit": 0
     },
-    "923184070915@s.whatsapp.net": {
-      "serialNumber": "84a6d900b59ff9b86da982ae409f5973",
+    "2348106206532@s.whatsapp.net": {
+      "serialNumber": "",
       "title": "Premium",
       "afkTime": -1,
       "badword": 0,
       "afkReason": "",
-      "nick": "Oke",
-      "premium": false,
+      "nick": "Ok",
+      "premium": true,
       "limit": 1000,
       "totalLimit": 0
     }
   },
   "database": {},
   "chats": {
-    "120363047626537933@g.us": {
+    "": {
       "badword": false,
       "antiforeignnum": false,
       "antibot": false,
@@ -43,7 +43,7 @@
       "antilink": false,
       "antilinkgc": false
     },
-    "923184070915@s.whatsapp.net": {
+    "2348144317152@s.whatsapp.net": {
       "badword": false,
       "antiforeignnum": false,
       "antibot": false,
@@ -61,7 +61,7 @@
       "antilink": false,
       "antilinkgc": false
     },
-    "923184070915@s.whatsapp.net": {
+    "2348106206532@s.whatsapp.net": {
       "badword": false,
       "antiforeignnum": false,
       "antibot": false,
@@ -84,7 +84,7 @@
     "math": []
   },
   "settings": {
-    "923184070915@s.whatsapp.net": {
+    "2348144317152@s.whatsapp.net": {
       "totalhit": 49,
       "totalError": 0,
       "online": false,
@@ -101,16 +101,16 @@
       "autotype": false,
       "watermark": {
         "packname": "Sticker By",
-        "author": "🦄드림 가이 Xeon\n\n+916909137213"
+        "author": "🦄드림 가이 wally\n\n+2348144317152"
       },
       "about": {
         "bot": {
-          "nick": "Oke",
-          "alias": "XLICON-V3-MD"
+          "nick": "Ok",
+          "alias": "WALLYJAYTECH-MD"
         },
         "owner": {
-          "nick": "+923184070915",
-          "alias": "923184070915"
+          "nick": "+2348144317152",
+          "alias": "2348144317152"
         }
       }
     }
