@@ -221,6 +221,13 @@ NOW Deploy👇
 <br>
 `Development , Maintainence , Bot Updates`
 
+## 🏷️ `Contributer` 
+<a href="https://github.com/wallyjaytechy"><img src="https://ibb.co/xLH7ZHY" width="250" height="250" alt="AJIBADE ADEWALE JOSEPH"/></a>
+  
+**WALLYJAYTECH-MD** - By `Wally Jay`
+<br>
+`Ajibade Adewale Joseph, A social Science Student:Psychologist`
+
 
 
 -------
