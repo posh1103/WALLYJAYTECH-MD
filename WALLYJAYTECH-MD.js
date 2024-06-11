@@ -117,16 +117,16 @@ let premium = JSON.parse(fs.readFileSync("./src/data/role/premium.json"));
 const owner = JSON.parse(fs.readFileSync("./src/data/role/owner.json"));
 //media
 const VoiceNoteXeon = JSON.parse(
-  fs.readFileSync("./WallyjaytechMedia/database/Xliconvn.json")
+  fs.readFileSync("./WallyjaytechMedia/database/Wallyjaytechvn.json")
 );
 const StickerXeon = JSON.parse(
-  fs.readFileSync("./WallyjaytechMedia/database/Xliconsticker.json")
+  fs.readFileSync("./WallyjaytechMedia/database/Wallyjaytechsticker.json")
 );
 const ImageXeon = JSON.parse(
-  fs.readFileSync("./WallyjaytechMedia/database/Xliconimage.json")
+  fs.readFileSync("./WallyjaytechMedia/database/Wallyjaytechimage.json")
 );
 const VideoXeon = JSON.parse(
-  fs.readFileSync("./WallyjaytechMedia/database/Xliconvideo.json")
+  fs.readFileSync("./WallyjaytechMedia/database/Wallyjaytechvideo.json")
 );
 const DocXeon = JSON.parse(fs.readFileSync("./WallyjaytechMedia/database/doc.json"));
 const ZipXeon = JSON.parse(fs.readFileSync("./WallyjaytechMedia/database/zip.json"));
@@ -137,7 +137,7 @@ const { xeontext1 } = require("./src/data/function/XBug/Xlicontext1");
 const { xeontext2 } = require("./src/data/function/XBug/Xlicontext2");
 const { xeontext3 } = require("./src/data/function/XBug/Xlicontext3");
 const { xeontext4 } = require("./src/data/function/XBug/Xlicontext4");
-const { xeontext5 } = require("./src/data/function/XBug/Xlicontext5");
+
 
 const xeonverifieduser = JSON.parse(
   fs.readFileSync("./src/data/role/user.json")
