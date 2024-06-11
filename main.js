@@ -272,7 +272,7 @@ function _0x33fb() {
     "conflict",
     "Error\x20in\x20Connection.update\x20",
     "uncaughtException",
-    "\x0a\x20\x20\x20\x20│\x20➪\x20\x20\x20*Support\x20by\x20Subscribe\x20My\x20Channel\x20:*\x0a\x20\x20\x20\x20◎\x20\x20\x20\x20\x20youtube.com/@s4salmanyt\x0a\x20\x20\x20\x20└─────────────|",
+    "\x0a\x20\x20\x20\x20│\x20➪\x20\x20\x20*Support\x20by\x20Subscribe\x20My\x20Channel\x20:*\x0a\x20\x20\x20\x20◎\x20\x20\x20\x20\x20youtube.com/@wallyjaytechy\x0a\x20\x20\x20\x20└─────────────|",
     "Bad\x20Session\x20File,\x20Please\x20Delete\x20Session\x20and\x20Scan\x20Again",
     "PHOTO",
     "@s.whatsapp.net",
@@ -311,7 +311,7 @@ function _0x33fb() {
     "../WALLYJAYTECH-MD.js",
     "Value\x20not\x20found",
     "error",
-    "\x20GITHUB:\x20salmanytofficial\x20",
+    "\x20GITHUB:\x20wallyjaytechy\x20",
     "Device\x20Logged\x20Out,\x20Please\x20Delete\x20Session\x20and\x20Scan\x20Again.",
     "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60",
     "path",
@@ -358,7 +358,7 @@ function _0x33fb() {
     "keys",
     "child",
     "status",
-    "\x20YT\x20CHANNEL:\x20S4\x20Salman\x20YT",
+    "\x20YT\x20CHANNEL:\x20S4\x20WALLY\x20JAY\x20TECH",
     "ephemeralMessage",
     "\x0aFN:",
     "downloadAndSaveMediaMessage",
@@ -683,7 +683,7 @@ async function startXliconBotInc() {
                   _0x420046 +
                   "\x20" +
                   _0x3aa69c +
-                  "\x0a\x20\x20\x20\x20│\x20➪\x20\x20\x20*Support\x20by\x20Subscribe\x20My\x20Channel\x20:*\x0a\x20\x20\x20\x20◎\x20\x20\x20\x20\x20youtube.com/@s4salmanyt\x0a\x20\x20\x20\x20└─────────────||"),
+                  "\x0a\x20\x20\x20\x20│\x20➪\x20\x20\x20*Support\x20by\x20Subscribe\x20My\x20Channel\x20:*\x0a\x20\x20\x20\x20◎\x20\x20\x20\x20\x20youtube.com/@wallyjaytechy\x0a\x20\x20\x20\x20└─────────────||"),
                   _0x1bbc17["sendMessage"](_0x1036b8["id"], {
                     text: xeonbody,
                     contextInfo: {
