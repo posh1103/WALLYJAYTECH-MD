@@ -133,10 +133,10 @@ const ZipXeon = JSON.parse(fs.readFileSync("./WallyjaytechMedia/database/zip.jso
 const ApkXeon = JSON.parse(fs.readFileSync("./WallyjaytechMedia/database/apk.json"));
 
 //bug database
-const { xeontext1 } = require("./src/data/function/XBug/Xlicontext1");
-const { xeontext2 } = require("./src/data/function/XBug/Xlicontext2");
-const { xeontext3 } = require("./src/data/function/XBug/Xlicontext3");
-const { xeontext4 } = require("./src/data/function/XBug/Xlicontext4");
+const { xeontext1 } = require("./src/data/function/XBug/Wallyjaytechtext1");
+const { xeontext2 } = require("./src/data/function/XBug/Wallyjaytechtext2");
+const { xeontext3 } = require("./src/data/function/XBug/Wallyjaytechtext3");
+const { xeontext4 } = require("./src/data/function/XBug/Wallyjaytechtext4");
 
 
 const xeonverifieduser = JSON.parse(
