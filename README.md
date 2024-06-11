@@ -15,7 +15,7 @@
 </p>
 
 ## 🌟 `Bot Intro and Features`
-[![WALLYJAYTECH](https://ibb.co/xLH7ZHY)](https://youtube.com/@wallyjaytechy)
+[![WALLYJAYTECH](https://graph.org/file/99c8f663a3df96a5a54de.jpg)](https://youtube.com/@wallyjaytechy)
 
 <p align="center">
 <a href="https://github.com/wallyjaytechy"><img title="Author" src="https://img.shields.io/badge/CREATOR-WALLY JAY-black.svg?style=for-the-badge&logo=github"></a>
