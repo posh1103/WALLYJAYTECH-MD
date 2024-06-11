@@ -269,7 +269,7 @@ pkg install ffmpeg -y
 pkg install wget
 pkg install imagemagick -y
 git clone https://github.com/<your gitHub Username>/WALLYJAYTECH-MD
-cd XLICON-V3-MD
+cd WALLYJAYTECH-MD
 yarn install
 npm start
 ```
