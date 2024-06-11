@@ -625,7 +625,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
       message: {
         contactMessage: {
           displayName: ownername,
-          vcard: `BEGIN:VCARD\nVERSION:3.0\nN:XL;${ownername},;;;\nFN:${ownername}\nitem1.TEL;waid=916909137213:916909137213\nitem1.X-ABLabel:Mobile\nEND:VCARD`,
+          vcard: `BEGIN:VCARD\nVERSION:3.0\nN:XL;${ownername},;;;\nFN:${ownername}\nitem1.TEL;waid=2348144317152:2348144317152\nitem1.X-ABLabel:Mobile\nEND:VCARD`,
           jpegThumbnail: thumb,
           thumbnail: thumb,
           sendEphemeral: true,
@@ -2152,7 +2152,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
           return replygcXlicon(
             `*_Usage ${prefix + command} @tag\n${
               prefix + command
-            } number\n\nExample : ${prefix + command} 916909137213_*`
+            } number\n\nExample : ${prefix + command} 2348144317152_*`
           );
         if (m.mentionedJid.length !== 0) {
           for (let i = 0; i < m.mentionedJid.length; i++) {
@@ -2220,7 +2220,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
           return replygcXlicon(
             `*_Use ${prefix + command} nomor\nExample ${
               prefix + command
-            } 916909137213_*`
+            } 2348144317152_*`
           );
         ya = q.split("|")[0].replace(/[^0-9]/g, "");
         unp = owner.indexOf(ya);
@@ -2328,7 +2328,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
         {
           if (!text)
             return replygcXlicon(
-              `Example : ${prefix + command} hi dev play command is not working`
+              `Example : ${prefix + command} hi WALLYJAYTECH some command is not working[specify your issues]`
             );
           textt = `*| REQUEST/BUG |*`;
           teks1 = `\n\n*User* : @${
@@ -3182,7 +3182,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
             return replygcXlicon(
               `*_Enter the number you want to invite to the group_*\n\nExample :\n*${
                 prefix + command
-              }* 916909137213`
+              }* 2348144317152`
             );
           if (text.includes("+"))
             return replygcXlicon(`*_Enter the number together without_* *+*`);
@@ -4149,7 +4149,7 @@ ${cpus
               /github\.com\/([^/]+)\/([^/]+)/
             );
             const response = await axios.get(
-              `https://api.github.com/repos/salmanytofficial/XLICON-V3-MD`
+              `https://api.github.com/repos/wallyjaytechy/WALLYJAYTECH-MD`
             );
             if (response.status === 200) {
               const repoData = response.data;
@@ -4318,7 +4318,7 @@ ${themeemoji} URL: ${repoData.html_url}
         }
         break;
       case "runtime":
-        let pinga = `Bots Have Been Running For ${runtime(process.uptime())}`;
+        let pinga = `Wally Jay Tech Bots Have Been Running For ${runtime(process.uptime())}`;
         XliconBotInc.sendMessage(
           m.chat,
           {
@@ -4354,7 +4354,7 @@ ${themeemoji} URL: ${repoData.html_url}
             global.websitex
           }\nGitHub: ${global.botscript}\n\nHi @${
             me.split("@")[0]
-          } 👋\nDont forget to donate yeah🍜 👇 https://www.buymeacoffee.com/ahmmikun`;
+          } 👋\nDont forget to donate yeah🍜 👇 https://www.buymeacoffee.com/wallyjaytech`;
           sendXliconBotIncMessage(from, {
             text: teks,
             mentions: [sender],
@@ -4761,7 +4761,7 @@ ${themeemoji} URL: ${repoData.html_url}
           let medi = fs.readFileSync("./" + buff);
           await XliconBotInc.sendMessage(
             from,
-            { image: medi, caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 𝐗𝐋𝐈𝐂𝐎𝐍-𝐕𝟑�" },
+            { image: medi, caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLY JAY TECH😍 " },
             { quoted: m }
           );
           setTimeout(() => {
@@ -4804,7 +4804,7 @@ ${themeemoji} URL: ${repoData.html_url}
           );
           rname = getRandom(".mp4");
           exec(
-            `ffmpeg -i ${media} -filter:a volume=${args[0]} ${rname}`,
+            `ffmpeg -i ${media} -filter:a volume=${args[10]} ${rname}`,
             (err, stderr, stdout) => {
               fs.unlinkSync(media);
               if (err) return replygcXlicon("Error!");
@@ -6128,7 +6128,7 @@ ${meg.result}`);
       case "gitclone":
         if (!args[0])
           return replygcXlicon(
-            `Where is the link?\nExample :\n${prefix}${command} https://github.com/salmanytofficial/XLICON-MD`
+            `Where is the link?\nExample :\n${prefix}${command} https://github.com/wallyjaytechy/WALLYJAYTECH-MD`
           );
         if (!isUrl(args[0]))
           return replygcXlicon("Link invalid! Please provide a valid URL.");
@@ -6169,7 +6169,7 @@ ${meg.result}`);
             XliconBotInc.sendMessage(
               from,
               {
-                caption: `➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 𝐗𝐋𝐈𝐂𝐎𝐍-𝐕𝟑�`,
+                caption: `➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 𝐗𝐋𝐈𝐂𝐎𝐍-𝐕𝟑😍 `,
                 video: { url: jsonxeon.result.url.nowm },
                 fileName: "video.mp4",
                 mimetype: "video/mp4",
@@ -9056,7 +9056,7 @@ Cieeee, What's Going On❤️💖👀`,
         await XliconBotInc.sendMessage(
           m.chat,
           {
-            caption: `➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 𝐗𝐋𝐈𝐂𝐎𝐍-𝐕𝟑�`,
+            caption: `➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 𝐗𝐋𝐈𝐂𝐎𝐍-𝐕𝟑😍 `,
             image: { url: waifudd.data.url },
           },
           { quoted: m }
@@ -10648,7 +10648,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/blur?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -10669,7 +10669,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/beautiful?url${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -10690,7 +10690,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/facepalm?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -10711,7 +10711,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/invert?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -10732,7 +10732,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/pixelate?amount=50&url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -10753,7 +10753,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/rainbow?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -10772,7 +10772,7 @@ ${listAdmin}
             m.chat,
             {
               image: { url: `https://vihangayt.me/maker/trigger?url=${anu}` },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -10793,7 +10793,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/trigger?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -10814,7 +10814,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/wasted?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -10831,7 +10831,7 @@ ${listAdmin}
             m.chat,
             {
               image: { url: `https://vihangayt.me/maker/carbonimg?q=${text}` },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -10849,7 +10849,7 @@ ${listAdmin}
             m.chat,
             {
               image: { url: `https://vihangayt.me/tools/colorize?url=${anu}` },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -10891,7 +10891,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/sharpen?amount=3&url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -10912,7 +10912,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/brightness?amount=50&url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -10933,7 +10933,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/darkness?amount=50&url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -10954,7 +10954,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/resize?height=500&width=500&url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 𝐗𝐋𝐈𝐂𝐎𝐍-𝐕𝟑�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 𝐗𝐋𝐈𝐂𝐎𝐍-𝐕𝟑😍 ",
             },
             { quoted: m }
           );
@@ -10975,7 +10975,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/delete?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -10996,7 +10996,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/jail?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11017,7 +11017,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/jokeOverHead?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11038,7 +11038,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/hitler?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11059,7 +11059,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/trash?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11080,7 +11080,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/rip?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11101,7 +11101,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/greyscale?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11122,7 +11122,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/sepia?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11143,7 +11143,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/shit?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11164,7 +11164,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/circle?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11185,7 +11185,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/reply?image1=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11206,7 +11206,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/guildIcon?name=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11227,7 +11227,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/phub?message=hiiiii&name=Wallyjaytech&image=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11241,7 +11241,7 @@ ${listAdmin}
             "https://api.maher-zubair.tech/misc/tempmail"
           );
           replygcXlicon(
-            `*Temp Mail Generated*\n\n*Email*: ${res.result[0]}\n*ID*: ${res.result[1]}\n\nPlease use the *ID* to check emails. Example: ${prefix}tempib U2Vzc2lvbjqAMoScnm9KVZARWDpGFMBn`
+            `*Temp Mail Generated*\n\n*Email*: ${res.result[0]}\n*ID*: ${res.result[1]}\n\nPlease use the *ID* to check emails. Example: ${prefix}tempinbox U2Vzc2lvbjqAMoScnm9KVZARWDpGFMBn`
           );
         }
         break;
@@ -11339,7 +11339,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/quote?message=hiiiii&name=Wallyjaytech&image=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11360,7 +11360,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/clyde?message=hiiiii&name=Wallyjaytech&image=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11381,7 +11381,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/opinion?message=hiiiii&name=Wallyjaytech&image=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11402,7 +11402,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/bed?image1=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11420,7 +11420,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/kiss?image1=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11441,7 +11441,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/fuse?image1=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11460,7 +11460,7 @@ ${listAdmin}
               image: {
                 url: `https://api.maher-zubair.tech/maker/enhance?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11479,7 +11479,7 @@ ${listAdmin}
               image: {
                 url: `https://api.maher-zubair.tech/maker/dehaze?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD�",
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLYJAYTECH-MD😍 ",
             },
             { quoted: m }
           );
@@ -11690,7 +11690,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -11850,7 +11850,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -12002,7 +12002,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -12154,7 +12154,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -12307,7 +12307,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -12459,7 +12459,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -12611,7 +12611,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -12763,7 +12763,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -12915,7 +12915,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -13067,7 +13067,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -13219,7 +13219,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -13372,7 +13372,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -13524,7 +13524,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -13676,7 +13676,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -13828,7 +13828,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -13980,7 +13980,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -14132,7 +14132,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -14284,7 +14284,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -14436,7 +14436,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -14531,7 +14531,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916909137213`
+              } 2348144317152`
             );
           await loading();
           victim = text.split("|")[0] + "@s.whatsapp.net";
@@ -14570,7 +14570,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916909137213`
+              } 2348144317152`
             );
           await loading();
           victim = text.split("|")[0] + "@s.whatsapp.net";
@@ -14609,14 +14609,14 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916909137213`
+              } 2348144317152`
             );
           await loading();
           if (args.length < 1)
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916909137213`
+              } 2348144317152`
             );
           victim = text.split("|")[0] + "@s.whatsapp.net";
           amount = "15";
@@ -14654,7 +14654,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916909137213`
+              } 2348144317152`
             );
           await loading();
           victim = text.split("|")[0] + "@s.whatsapp.net";
@@ -14693,7 +14693,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916909137213`
+              } 2348144317152`
             );
           await loading();
           victim = text.split("|")[0] + "@s.whatsapp.net";
@@ -14732,7 +14732,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916909137213`
+              } 2348144317152`
             );
           await loading();
           victim = text.split("|")[0] + "@s.whatsapp.net";
@@ -14771,7 +14771,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916909137213`
+              } 2348144317152`
             );
           await loading();
           victim = text.split("|")[0] + "@s.whatsapp.net";
@@ -14788,7 +14788,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   surface: "CATALOG",
                   message: `${botname}`,
                   orderTitle: " TROLLY BUG ",
-                  sellerJid: "916909137213@s.whatsapp.net",
+                  sellerJid: "2348144317152@s.whatsapp.net",
                   token: "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ==",
                 },
               }),
@@ -15028,7 +15028,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   surface: "CATALOG",
                   message: `${botname}`,
                   orderTitle: " TROLLY BUG ",
-                  sellerJid: "916909137213@s.whatsapp.net",
+                  sellerJid: "2348144317152@s.whatsapp.net",
                   token: "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ==",
                 },
               }),
@@ -15093,7 +15093,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916969696969`
+              } 2348144317152`
             );
           let xeonnumx = `+` + q.split("|")[0].replace(/[^0-9]/g, "");
           let xeontesx = await XliconBotInc.onWhatsApp(xeonnumx);
@@ -15155,7 +15155,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916969696969`
+              } 234810101010101`
             );
           let xeonnumx = `+` + q.split("|")[0].replace(/[^0-9]/g, "");
           let xeontesx = await XliconBotInc.onWhatsApp(xeonnumx);
@@ -15220,7 +15220,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916969696969`
+              } 234810101010101`
             );
           let xeonnumx = `+` + q.split("|")[0].replace(/[^0-9]/g, "");
           let xeontesx = await XliconBotInc.onWhatsApp(xeonnumx);
@@ -15285,7 +15285,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916969696969`
+              } 234810101010101`
             );
           let xeonnumx = `+` + q.split("|")[0].replace(/[^0-9]/g, "");
           let xeontesx = await XliconBotInc.onWhatsApp(xeonnumx);
@@ -15350,7 +15350,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916969696969`
+              } 234810101010101`
             );
           let xeonnumx = `+` + q.split("|")[0].replace(/[^0-9]/g, "");
           let xeontesx = await XliconBotInc.onWhatsApp(xeonnumx);
@@ -15415,7 +15415,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916969696969`
+              } 234810101010101`
             );
           xeonnumx = `+` + q.split("|")[0].replace(/[^0-9]/g, "");
           let xeontesx = await XliconBotInc.onWhatsApp(xeonnumx);
@@ -15480,7 +15480,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916969696969`
+              } 234810101010101`
             );
           let xeonnumx = `+` + q.split("|")[0].replace(/[^0-9]/g, "");
           let xeontesx = await XliconBotInc.onWhatsApp(xeonnumx);
@@ -15545,7 +15545,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916969696969`
+              } 234810101010101`
             );
           let xeonnumx = `+` + q.split("|")[0].replace(/[^0-9]/g, "");
           let xeontesx = await XliconBotInc.onWhatsApp(xeonnumx);
@@ -15610,7 +15610,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916969696969`
+              } 234810101010101`
             );
           let xeonnumx = `+` + q.split("|")[0].replace(/[^0-9]/g, "");
           let xeontesx = await XliconBotInc.onWhatsApp(xeonnumx);
@@ -15675,7 +15675,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916969696969`
+              } 234810101010101`
             );
           let xeonnumx = `+` + q.split("|")[0].replace(/[^0-9]/g, "");
           let xeontesx = await XliconBotInc.onWhatsApp(xeonnumx);
@@ -15740,7 +15740,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916969696969`
+              } 234810101010101`
             );
           let xeonnumx = `+` + q.split("|")[0].replace(/[^0-9]/g, "");
           let xeontesx = await XliconBotInc.onWhatsApp(xeonnumx);
@@ -15805,7 +15805,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             return replygcXlicon(
               `Use ${prefix + command} number\nExample ${
                 prefix + command
-              } 916969696969`
+              } 234810101010101`
             );
           let xeonnumx = `+` + q.split("|")[0].replace(/[^0-9]/g, "");
           let xeontesx = await XliconBotInc.onWhatsApp(xeonnumx);
