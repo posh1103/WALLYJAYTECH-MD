@@ -221,8 +221,8 @@ NOW Deploy👇
 <br>
 `Development , Maintainence , Bot Updates`
 
-## 🏷️ `Contributer` 
-[![WALLYJAYTECH](https://ibb.co/xLH7ZHY)](https://youtube.com/@wallyjaytechy)
+## 🏷️ `OWNER INFO` 
+[![WALLYJAYTECH](https://telegra.ph/file/d8a22dde44c383b003703.jpg)](https://youtube.com/@wallyjaytechy)
   
 **WALLYJAYTECH-MD** - By `Wally Jay`
 <br>
