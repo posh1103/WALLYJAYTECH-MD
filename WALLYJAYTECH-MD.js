@@ -329,7 +329,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         ? m.message.extendedTextMessage.contextInfo.mentionedJid
         : [];
     //anti media
-    const isXliconMedia = m.mtype;
+    const isWallyjaytechMedia = m.mtype;
     //user status
     const isUser = xeonverifieduser.includes(sender);
     const XeonTheCreator = [botNumber, ...owner]
@@ -347,31 +347,31 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
     };
     const XliconStickAdmin = () => {
       let XeonStikRep = fs.readFileSync(
-        "./XliconMedia/theme/sticker_reply/admin.webp"
+        "./WallyjaytechMedia/theme/sticker_reply/admin.webp"
       );
       XliconBotInc.sendMessage(from, { sticker: XeonStikRep }, { quoted: m });
     };
     const XliconStickBotAdmin = () => {
       let XeonStikRep = fs.readFileSync(
-        "./XliconMedia/theme/sticker_reply/botadmin.webp"
+        "./WallyjaytechMedia/theme/sticker_reply/botadmin.webp"
       );
       XliconBotInc.sendMessage(from, { sticker: XeonStikRep }, { quoted: m });
     };
     const XliconStickOwner = () => {
       let XeonStikRep = fs.readFileSync(
-        "./XliconMedia/theme/sticker_reply/owner.webp"
+        "./WallyjaytechMedia/theme/sticker_reply/owner.webp"
       );
       XliconBotInc.sendMessage(from, { sticker: XeonStikRep }, { quoted: m });
     };
     const XeonStickGroup = () => {
       let XeonStikRep = fs.readFileSync(
-        "./XliconMedia/theme/sticker_reply/group.webp"
+        "./WallyjaytechMedia/theme/sticker_reply/group.webp"
       );
       XliconBotInc.sendMessage(from, { sticker: XeonStikRep }, { quoted: m });
     };
     const XliconStickPrivate = () => {
       let XeonStikRep = fs.readFileSync(
-        "./XliconMedia/theme/sticker_reply/private.webp"
+        "./WallyjaytechMedia/theme/sticker_reply/private.webp"
       );
       XliconBotInc.sendMessage(from, { sticker: XeonStikRep }, { quoted: m });
     };
@@ -407,7 +407,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
                 title: botname,
                 body: ownername,
                 previewType: "PHOTO",
-                thumbnail: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                thumbnail: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 sourceUrl: wagc,
               },
             },
@@ -427,7 +427,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
                 showAdAttribution: true,
                 title: botname,
                 body: ownername,
-                thumbnail: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                thumbnail: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 sourceUrl: websitex,
                 mediaType: 1,
                 renderLargerThumbnail: true,
@@ -652,7 +652,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
           directPath:
             "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69",
           mediaKeyTimestamp: "1610993486",
-          jpegThumbnail: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+          jpegThumbnail: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
           scansSidecar:
             "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw==",
         },
@@ -1221,8 +1221,8 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         });
       }
     }
-    if (db.data.chats[m.chat].image && isXliconMedia) {
-      if (isXliconMedia === "imageMessage") {
+    if (db.data.chats[m.chat].image && isWallyjaytechMedia) {
+      if (isWallyjaytechMedia === "imageMessage") {
         if (XeonTheCreator || isAdmins || !isBotAdmins) {
         } else {
           replygcXlicon(
@@ -1239,8 +1239,8 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         }
       }
     }
-    if (db.data.chats[m.chat].antivideo && isXliconMedia) {
-      if (isXliconMedia === "videoMessage") {
+    if (db.data.chats[m.chat].antivideo && isWallyjaytechMedia) {
+      if (isWallyjaytechMedia === "videoMessage") {
         if (XeonTheCreator || isAdmins || !isBotAdmins) {
         } else {
           replygcXlicon(
@@ -1257,8 +1257,8 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         }
       }
     }
-    if (db.data.chats[m.chat].antisticker && isXliconMedia) {
-      if (isXliconMedia === "stickerMessage") {
+    if (db.data.chats[m.chat].antisticker && isWallyjaytechMedia) {
+      if (isWallyjaytechMedia === "stickerMessage") {
         if (XeonTheCreator || isAdmins || !isBotAdmins) {
         } else {
           replygcXlicon(
@@ -1275,8 +1275,8 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         }
       }
     }
-    if (db.data.chats[m.chat].antiaudio && isXliconMedia) {
-      if (isXliconMedia === "audioMessage") {
+    if (db.data.chats[m.chat].antiaudio && isWallyjaytechMedia) {
+      if (isWallyjaytechMedia === "audioMessage") {
         if (XeonTheCreator || isAdmins || !isBotAdmins) {
         } else {
           replygcXlicon(
@@ -1293,8 +1293,8 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         }
       }
     }
-    if (db.data.chats[m.chat].antipoll && isXliconMedia) {
-      if (isXliconMedia === "pollCreationMessage") {
+    if (db.data.chats[m.chat].antipoll && isWallyjaytechMedia) {
+      if (isWallyjaytechMedia === "pollCreationMessage") {
         if (XeonTheCreator || isAdmins || !isBotAdmins) {
         } else {
           replygcXlicon(
@@ -1311,8 +1311,8 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         }
       }
     }
-    if (db.data.chats[m.chat].antilocation && isXliconMedia) {
-      if (isXliconMedia === "locationMessage") {
+    if (db.data.chats[m.chat].antilocation && isWallyjaytechMedia) {
+      if (isWallyjaytechMedia === "locationMessage") {
         if (XeonTheCreator || isAdmins || !isBotAdmins) {
         } else {
           replygcXlicon(
@@ -1329,8 +1329,8 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         }
       }
     }
-    if (db.data.chats[m.chat].antidocument && isXliconMedia) {
-      if (isXliconMedia === "documentMessage") {
+    if (db.data.chats[m.chat].antidocument && isWallyjaytechMedia) {
+      if (isWallyjaytechMedia === "documentMessage") {
         if (XeonTheCreator || isAdmins || !isBotAdmins) {
         } else {
           replygcXlicon(
@@ -1347,8 +1347,8 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         }
       }
     }
-    if (db.data.chats[m.chat].anticontact && isXliconMedia) {
-      if (isXliconMedia === "contactMessage") {
+    if (db.data.chats[m.chat].anticontact && isWallyjaytechMedia) {
+      if (isWallyjaytechMedia === "contactMessage") {
         if (XeonTheCreator || isAdmins || !isBotAdmins) {
         } else {
           replygcXlicon(
@@ -1504,7 +1504,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
     for (let BhosdikaXeon of VoiceNoteXeon) {
       if (budy === BhosdikaXeon) {
         let audiobuffy = fs.readFileSync(
-          `./XliconMedia/audio/${BhosdikaXeon}.mp3`
+          `./WallyjaytechMedia/audio/${BhosdikaXeon}.mp3`
         );
         XliconBotInc.sendMessage(
           m.chat,
@@ -1516,7 +1516,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
     for (let BhosdikaXeon of StickerXeon) {
       if (budy === BhosdikaXeon) {
         let stickerbuffy = fs.readFileSync(
-          `./XliconMedia/sticker/${BhosdikaXeon}.webp`
+          `./WallyjaytechMedia/sticker/${BhosdikaXeon}.webp`
         );
         XliconBotInc.sendMessage(
           m.chat,
@@ -1528,7 +1528,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
     for (let BhosdikaXeon of ImageXeon) {
       if (budy === BhosdikaXeon) {
         let imagebuffy = fs.readFileSync(
-          `./XliconMedia/image/${BhosdikaXeon}.jpg`
+          `./WallyjaytechMedia/image/${BhosdikaXeon}.jpg`
         );
         XliconBotInc.sendMessage(m.chat, { image: imagebuffy }, { quoted: m });
       }
@@ -1536,7 +1536,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
     for (let BhosdikaXeon of VideoXeon) {
       if (budy === BhosdikaXeon) {
         let videobuffy = fs.readFileSync(
-          `./XliconMedia/video/${BhosdikaXeon}.mp4`
+          `./WallyjaytechMedia/video/${BhosdikaXeon}.mp4`
         );
         XliconBotInc.sendMessage(m.chat, { video: videobuffy }, { quoted: m });
       }
@@ -1551,7 +1551,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
     };
     for (let BhosdikaXeon of ApkXeon) {
       if (budy === BhosdikaXeon) {
-        let buffer = fs.readFileSync(`./XliconMedia/apk/${BhosdikaXeon}.apk`);
+        let buffer = fs.readFileSync(`./WallyjaytechMedia/apk/${BhosdikaXeon}.apk`);
         sendapk(buffer);
       }
     }
@@ -1565,7 +1565,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
     };
     for (let BhosdikaXeon of ZipXeon) {
       if (budy === BhosdikaXeon) {
-        let buffer = fs.readFileSync(`./XliconMedia/zip/${BhosdikaXeon}.zip`);
+        let buffer = fs.readFileSync(`./WallyjaytechMedia/zip/${BhosdikaXeon}.zip`);
         sendzip(buffer);
       }
     }
@@ -1579,7 +1579,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
     };
     for (let BhosdikaXeon of DocXeon) {
       if (budy === BhosdikaXeon) {
-        let buffer = fs.readFileSync(`./XliconMedia/doc/${BhosdikaXeon}.pdf`);
+        let buffer = fs.readFileSync(`./WallyjaytechMedia/doc/${BhosdikaXeon}.pdf`);
         senddocu(buffer);
       }
     }
@@ -2058,7 +2058,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
         {
           if (!XeonTheCreator) return XliconStickOwner();
           let delb = await XliconBotInc.downloadAndSaveMediaMessage(quoted);
-          await fsx.copy(delb, "./XliconMedia/theme/xliconpic.jpg");
+          await fsx.copy(delb, "./WallyjaytechMedia/theme/xliconpic.jpg");
           fs.unlinkSync(delb);
           replygcXlicon(mess.done);
         }
@@ -2070,7 +2070,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
         {
           if (!XeonTheCreator) return XliconStickOwner();
           let delb = await XliconBotInc.downloadAndSaveMediaMessage(quoted);
-          await fsx.copy(delb, "./XliconMedia/theme/xliconvid.mp4");
+          await fsx.copy(delb, "./WallyjaytechMedia/theme/xliconvid.mp4");
           fs.unlinkSync(delb);
           replygcXlicon(mess.done);
         }
@@ -4368,7 +4368,7 @@ ${themeemoji} URL: ${repoData.html_url}
                 title: botname,
                 containsAutoReply: true,
                 mediaType: 1,
-                thumbnail: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                thumbnail: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 mediaUrl: `${wagc}`,
                 sourceUrl: `${wagc}`,
               },
@@ -5384,9 +5384,9 @@ Type *surrender* to give up and admit defeat`;
             return replygcXlicon("The name is already in use");
           let delb = await XliconBotInc.downloadAndSaveMediaMessage(quoted);
           VideoXeon.push(q);
-          await fsx.copy(delb, `./XliconMedia/video/${q}.mp4`);
+          await fsx.copy(delb, `./WallyjaytechMedia/video/${q}.mp4`);
           fs.writeFileSync(
-            "./XliconMedia/database/xeonvideo.json",
+            "./WallyjaytechMedia/database/xeonvideo.json",
             JSON.stringify(VideoXeon)
           );
           fs.unlinkSync(delb);
@@ -5404,10 +5404,10 @@ Type *surrender* to give up and admit defeat`;
           let wanu = VideoXeon.indexOf(q);
           VideoXeon.splice(wanu, 1);
           fs.writeFileSync(
-            "./XliconMedia/database/xeonvideo.json",
+            "./WallyjaytechMedia/database/xeonvideo.json",
             JSON.stringify(VideoXeon)
           );
-          fs.unlinkSync(`./XliconMedia/video/${q}.mp4`);
+          fs.unlinkSync(`./WallyjaytechMedia/video/${q}.mp4`);
           replygcXlicon(`Success deleting video ${q}`);
         }
         break;
@@ -5429,9 +5429,9 @@ Type *surrender* to give up and admit defeat`;
             return replygcXlicon("The name is already in use");
           let delb = await XliconBotInc.downloadAndSaveMediaMessage(quoted);
           ImageXeon.push(q);
-          await fsx.copy(delb, `./XliconMedia/image/${q}.jpg`);
+          await fsx.copy(delb, `./WallyjaytechMedia/image/${q}.jpg`);
           fs.writeFileSync(
-            "./XliconMedia/database/xeonimage.json",
+            "./WallyjaytechMedia/database/xeonimage.json",
             JSON.stringify(ImageXeon)
           );
           fs.unlinkSync(delb);
@@ -5449,10 +5449,10 @@ Type *surrender* to give up and admit defeat`;
           let wanu = ImageXeon.indexOf(q);
           ImageXeon.splice(wanu, 1);
           fs.writeFileSync(
-            "./XliconMedia/database/xeonimage.json",
+            "./WallyjaytechMedia/database/xeonimage.json",
             JSON.stringify(ImageXeon)
           );
-          fs.unlinkSync(`./XliconMedia/image/${q}.jpg`);
+          fs.unlinkSync(`./WallyjaytechMedia/image/${q}.jpg`);
           replygcXlicon(`Success deleting image ${q}`);
         }
         break;
@@ -5474,9 +5474,9 @@ Type *surrender* to give up and admit defeat`;
             return replygcXlicon("The name is already in use");
           let delb = await XliconBotInc.downloadAndSaveMediaMessage(quoted);
           StickerXeon.push(q);
-          await fsx.copy(delb, `./XliconMedia/sticker/${q}.webp`);
+          await fsx.copy(delb, `./WallyjaytechMedia/sticker/${q}.webp`);
           fs.writeFileSync(
-            "./XliconMedia/database/xeonsticker.json",
+            "./WallyjaytechMedia/database/xeonsticker.json",
             JSON.stringify(StickerXeon)
           );
           fs.unlinkSync(delb);
@@ -5494,10 +5494,10 @@ Type *surrender* to give up and admit defeat`;
           let wanu = StickerXeon.indexOf(q);
           StickerXeon.splice(wanu, 1);
           fs.writeFileSync(
-            "./XliconMedia/database/xeonsticker.json",
+            "./WallyjaytechMedia/database/xeonsticker.json",
             JSON.stringify(StickerXeon)
           );
-          fs.unlinkSync(`./XliconMedia/sticker/${q}.webp`);
+          fs.unlinkSync(`./WallyjaytechMedia/sticker/${q}.webp`);
           replygcXlicon(`Success deleting sticker ${q}`);
         }
         break;
@@ -5582,9 +5582,9 @@ View list of Messages With ${prefix}listmsg`);
             return replygcXlicon("The name is already in use");
           let delb = await XliconBotInc.downloadAndSaveMediaMessage(quoted);
           VoiceNoteXeon.push(q);
-          await fsx.copy(delb, `./XliconMedia/audio/${q}.mp3`);
+          await fsx.copy(delb, `./WallyjaytechMedia/audio/${q}.mp3`);
           fs.writeFileSync(
-            "./XliconMedia/database/isXliconMedia.json",
+            "./WallyjaytechMedia/database/isWallyjaytechMedia.json",
             JSON.stringify(VoiceNoteXeon)
           );
           fs.unlinkSync(delb);
@@ -5602,10 +5602,10 @@ View list of Messages With ${prefix}listmsg`);
           let wanu = VoiceNoteXeon.indexOf(q);
           VoiceNoteXeon.splice(wanu, 1);
           fs.writeFileSync(
-            "./XliconMedia/database/isXliconMedia.json",
+            "./WallyjaytechMedia/database/isWallyjaytechMedia.json",
             JSON.stringify(VoiceNoteXeon)
           );
-          fs.unlinkSync(`./XliconMedia/audio/${q}.mp3`);
+          fs.unlinkSync(`./WallyjaytechMedia/audio/${q}.mp3`);
           replygcXlicon(`Success deleting vn ${q}`);
         }
         break;
@@ -5630,9 +5630,9 @@ View list of Messages With ${prefix}listmsg`);
               return replygcXlicon("This name is already in use");
             let delb = await XliconBotInc.downloadAndSaveMediaMessage(quoted);
             ZipXeon.push(teks);
-            await fsx.copy(delb, `./XliconMedia/zip/${teks}.zip`);
+            await fsx.copy(delb, `./WallyjaytechMedia/zip/${teks}.zip`);
             fs.writeFileSync(
-              "./XliconMedia/database/zip.json",
+              "./WallyjaytechMedia/database/zip.json",
               JSON.stringify(ZipXeon)
             );
             fs.unlinkSync(delb);
@@ -5653,10 +5653,10 @@ View list of Messages With ${prefix}listmsg`);
             let wanu = ZipXeon.indexOf(teks);
             ZipXeon.splice(wanu, 1);
             fs.writeFileSync(
-              "./XliconMedia/database/zip.json",
+              "./WallyjaytechMedia/database/zip.json",
               JSON.stringify(ZipXeon)
             );
-            fs.unlinkSync(`./XliconMedia/zip/${teks}.zip`);
+            fs.unlinkSync(`./WallyjaytechMedia/zip/${teks}.zip`);
             replygcXlicon(`Successfully deleted zip ${teks}`);
           }
         }
@@ -5683,9 +5683,9 @@ View list of Messages With ${prefix}listmsg`);
               return replygcXlicon("This name is already in use");
             let delb = await XliconBotInc.downloadAndSaveMediaMessage(quoted);
             apknye.push(teks);
-            await fsx.copy(delb, `./XliconMedia/apk/${teks}.apk`);
+            await fsx.copy(delb, `./WallyjaytechMedia/apk/${teks}.apk`);
             fs.writeFileSync(
-              "./XliconMedia/database/apk.json",
+              "./WallyjaytechMedia/database/apk.json",
               JSON.stringify(ApkXeon)
             );
             fs.unlinkSync(delb);
@@ -5707,10 +5707,10 @@ View list of Messages With ${prefix}listmsg`);
             let wanu = ApkXeon.indexOf(teks);
             ApkXeon.splice(wanu, 1);
             fs.writeFileSync(
-              "./XliconMedia/database/apk.json",
+              "./WallyjaytechMedia/database/apk.json",
               JSON.stringify(ApkXeon)
             );
-            fs.unlinkSync(`./XliconMedia/apk/${teks}.apk`);
+            fs.unlinkSync(`./WallyjaytechMedia/apk/${teks}.apk`);
             replygcXlicon(`Successfully deleted Apk ${teks}`);
           }
         }
@@ -5737,9 +5737,9 @@ View list of Messages With ${prefix}listmsg`);
               return replygcXlicon("This name is already in use");
             let delb = await XliconBotInc.downloadAndSaveMediaMessage(quoted);
             DocXeon.push(teks);
-            await fsx.copy(delb, `./XliconMedia/doc/${teks}.pdf`);
+            await fsx.copy(delb, `./WallyjaytechMedia/doc/${teks}.pdf`);
             fs.writeFileSync(
-              "./XliconMedia/database/doc.json",
+              "./WallyjaytechMedia/database/doc.json",
               JSON.stringify(DocXeon)
             );
             fs.unlinkSync(delb);
@@ -5761,10 +5761,10 @@ View list of Messages With ${prefix}listmsg`);
             let wanu = DocXeon.indexOf(teks);
             DocXeon.splice(wanu, 1);
             fs.writeFileSync(
-              "./XliconMedia/database/doc.json",
+              "./WallyjaytechMedia/database/doc.json",
               JSON.stringify(DocXeon)
             );
-            fs.unlinkSync(`./XliconMedia/doc/${teks}.pdf`);
+            fs.unlinkSync(`./WallyjaytechMedia/doc/${teks}.pdf`);
             replygcXlicon(`Successfully deleted pdf ${teks}`);
           }
         }
@@ -7409,7 +7409,7 @@ ID Zone: ${q.split("|")[1]}`);
                   previewType: "PHOTO",
                   thumbnailUrl: ``,
                   thumbnail: fs.readFileSync(
-                    `./XliconMedia/theme/xliconpic.jpg`
+                    `./WallyjaytechMedia/theme/xliconpic.jpg`
                   ),
                   sourceUrl: `${wagc}`,
                 },
@@ -7442,7 +7442,7 @@ Cieeee, What's Going On❤️💖👀`,
                   previewType: "PHOTO",
                   thumbnailUrl: ``,
                   thumbnail: fs.readFileSync(
-                    `./XliconMedia/theme/xliconpic.jpg`
+                    `./WallyjaytechMedia/theme/xliconpic.jpg`
                   ),
                   sourceUrl: `${wagc}`,
                 },
@@ -8100,7 +8100,7 @@ Cieeee, What's Going On❤️💖👀`,
                   previewType: "PHOTO",
                   thumbnailUrl: ``,
                   thumbnail: fs.readFileSync(
-                    `./XliconMedia/theme/xliconpic.jpg`
+                    `./WallyjaytechMedia/theme/xliconpic.jpg`
                   ),
                   sourceUrl: `${wagc}`,
                 },
@@ -11569,7 +11569,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -11587,7 +11587,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -11604,7 +11604,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -11615,7 +11615,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -11674,7 +11674,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -11690,7 +11690,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -11729,7 +11729,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -11747,7 +11747,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -11764,7 +11764,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -11775,7 +11775,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -11834,7 +11834,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -11850,7 +11850,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -11881,7 +11881,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -11899,7 +11899,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -11916,7 +11916,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -11927,7 +11927,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -11986,7 +11986,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -12002,7 +12002,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -12033,7 +12033,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -12051,7 +12051,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -12068,7 +12068,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -12079,7 +12079,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -12138,7 +12138,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -12154,7 +12154,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -12186,7 +12186,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -12204,7 +12204,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -12221,7 +12221,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -12232,7 +12232,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -12291,7 +12291,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -12307,7 +12307,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -12338,7 +12338,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -12356,7 +12356,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -12373,7 +12373,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -12384,7 +12384,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -12443,7 +12443,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -12459,7 +12459,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -12490,7 +12490,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -12508,7 +12508,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -12525,7 +12525,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -12536,7 +12536,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -12595,7 +12595,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -12611,7 +12611,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -12642,7 +12642,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -12660,7 +12660,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -12677,7 +12677,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -12688,7 +12688,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -12747,7 +12747,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -12763,7 +12763,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -12794,7 +12794,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -12812,7 +12812,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -12829,7 +12829,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -12840,7 +12840,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -12899,7 +12899,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -12915,7 +12915,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -12946,7 +12946,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -12964,7 +12964,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -12981,7 +12981,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -12992,7 +12992,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -13051,7 +13051,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -13067,7 +13067,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -13098,7 +13098,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -13116,7 +13116,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -13133,7 +13133,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -13144,7 +13144,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -13203,7 +13203,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -13219,7 +13219,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -13251,7 +13251,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -13269,7 +13269,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -13286,7 +13286,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -13297,7 +13297,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -13356,7 +13356,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -13372,7 +13372,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -13403,7 +13403,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -13421,7 +13421,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -13438,7 +13438,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -13449,7 +13449,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -13508,7 +13508,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -13524,7 +13524,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -13555,7 +13555,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -13573,7 +13573,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -13590,7 +13590,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -13601,7 +13601,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -13660,7 +13660,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -13676,7 +13676,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -13707,7 +13707,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -13725,7 +13725,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -13742,7 +13742,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -13753,7 +13753,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -13812,7 +13812,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -13828,7 +13828,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -13859,7 +13859,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -13877,7 +13877,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -13894,7 +13894,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -13905,7 +13905,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -13964,7 +13964,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -13980,7 +13980,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -14011,7 +14011,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -14029,7 +14029,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -14046,7 +14046,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -14057,7 +14057,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -14116,7 +14116,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -14132,7 +14132,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -14163,7 +14163,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -14181,7 +14181,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -14198,7 +14198,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -14209,7 +14209,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -14268,7 +14268,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -14284,7 +14284,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
@@ -14315,7 +14315,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                image: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                image: fs.readFileSync("./WallyjaytechMedia/theme/xliconpic.jpg"),
                 caption: xmenu_oh,
               },
               {
@@ -14333,7 +14333,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -14350,7 +14350,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid.mp4"),
                 caption: xmenu_oh,
               },
               {
@@ -14361,7 +14361,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid2.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid2.mp4"),
                 caption: xmenu_oh,
                 gifPlayback: true,
               },
@@ -14420,7 +14420,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                     title: botname,
                     body: ownername,
                     thumbnail: fs.readFileSync(
-                      "./XliconMedia/theme/xliconpic.jpg"
+                      "./WallyjaytechMedia/theme/xliconpic.jpg"
                     ),
                     sourceUrl: wagc,
                     mediaType: 1,
@@ -14436,7 +14436,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             XliconBotInc.sendMessage(
               m.chat,
               {
-                video: fs.readFileSync("./XliconMedia/theme/xliconvid3.mp4"),
+                video: fs.readFileSync("./WallyjaytechMedia/theme/xliconvid3.mp4"),
                 gifPlayback: true,
                 caption: xmenu_oh,
                 contextInfo: {
