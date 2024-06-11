@@ -667,7 +667,7 @@ async function startXliconBotInc() {
                   _0x420046 = moment["tz"](_0x4b0255(0x14d))["format"](
                     _0x4b0255(0x116)
                   ),
-                  _0x3aa69c = moment["tz"]("Asia/Kolkata")[_0x4b0255(0x17a)](
+                  _0x3aa69c = moment["tz"]("Africa/Lagos")[_0x4b0255(0x17a)](
                     _0x4b0255(0x138)
                   );
                 let _0x518a2e = _0x5c4581;
