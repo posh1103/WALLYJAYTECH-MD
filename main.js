@@ -142,7 +142,7 @@ if (global["db"])
   setInterval(async () => {
     if (global["db"]["data"]) await global["db"]["write"]();
   }, 0x1e * 0x3e8);
-require("./XLICON-V3.js"),
+require("./WALLYJAYTECH-MD.js"),
   nocache(_0x44ced9(0x1c0), (_0x1c564d) =>
     console[_0x44ced9(0x177)](
       color(_0x44ced9(0x198), _0x44ced9(0x17f)),
@@ -308,7 +308,7 @@ function _0x33fb() {
     "--pairing-code",
     "welcome",
     "./lib/loader",
-    "../XLICON-V3.js",
+    "../WALLYJAYTECH-MD.js",
     "Value\x20not\x20found",
     "error",
     "\x20GITHUB:\x20salmanytofficial\x20",
