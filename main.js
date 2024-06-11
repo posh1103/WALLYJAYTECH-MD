@@ -358,7 +358,7 @@ function _0x33fb() {
     "keys",
     "child",
     "status",
-    "\x20YT\x20CHANNEL:\x20S4\x20WALLY\x20JAY\x20TECH",
+    "\x20YT\x20CHANNEL:\x20WALLY\x20JAY\x20TECH",
     "ephemeralMessage",
     "\x0aFN:",
     "downloadAndSaveMediaMessage",
