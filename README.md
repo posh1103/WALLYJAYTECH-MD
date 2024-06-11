@@ -46,17 +46,7 @@ WALLYJAYTECH-MD is a Cool Multi-Device WhatsApp bot developed by [Wally jay](htt
 
 
 
-## Bot Games
----
-1. ***Connect Four Game.***
-2.  ***Tic Tac Toe.***
-3.  ***Number Guessing Game.***
-4.  ***Word chain Game.***
-5.  ***Hidden Card Game.***
-6.  ***Rolling Dice.***
-7.  ***Character Guessing Game.***
-8.  ***Capital of City Finding.***
-##
+
 
 ####
 
