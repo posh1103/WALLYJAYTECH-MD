@@ -301,4 +301,5 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 - Don't Use This Script As Your Bot Base 
 ---
 
+  <img align="left" alt="Coding" width="400" src="https://tenor.com/l57BZvR09G7.gif">
  <br><br>
