@@ -1,14 +1,14 @@
 # These are supported funding model platforms
 
-github: [wallyjaytechy]
+github: wallyjaytechy
 patreon: 
-open_collective: wallyjaytechy
+open_collective: 
 ko_fi:
-tidelift: npm/babel
-community_bridge: cloud-foundry
+tidelift: 
+community_bridge: 
 liberapay:
 issuehunt: 
-lfx_crowdfunding: cloud-foundry
+lfx_crowdfunding: 
 polar:
-buy_me_a_coffee: wallyjaytech
-custom: 
+buy_me_a_coffee: wallyjaytechy
+custom: https://github.com/wallyjaytechy/wallyjaytechy
