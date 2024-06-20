@@ -28,6 +28,7 @@
         "cheerio": "^1.0.0-rc.12",
         "cookie": "^0.5.0",
         "crypto": "^1.0.1",
+        "ffmpeg": "^0.0.4",
         "file-type": "^16.5.3",
         "fluent-ffmpeg": "^2.1.2",
         "form-data": "^4.0.0",
@@ -64,8 +65,10 @@
         "translate-google-api": "^1.0.4",
         "@vitalets/google-translate-api": "^9.2.0",
         "youtube-yts": "^2.0.0",
-        "ytdl-core": "^4.13.4",
-        "youtubedl-core": "^4.13.4",
+        "youtubei.js": "^7.0.0",
+        "ytdl-core": "^4.11.5",
+        "ytdl-secktor": "^0.0.1-development",
+        "youtubedl-core": "^4.11.5",
         "yt-search": "^2.10.4"
     }
 }
