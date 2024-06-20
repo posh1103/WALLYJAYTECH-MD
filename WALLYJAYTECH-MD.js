@@ -6033,71 +6033,6 @@ ${meg.result}`);
           );
         }
         break;
-      case "play":
-      case "song":
-        {
-          if (!text)
-            return replygcXlicon(
-              `Example : ${prefix + command} anime whatsapp status`
-            );
-          const xeonplaymp3 = require("./lib/ytdl");
-          let yts = require("youtube-yts");
-          let search = await yts(text);
-          let anup3k = search.videos[0];
-          const pl = await xeonplaymp3.mp3(anup3k.url);
-          await XliconBotInc.sendMessage(
-            m.chat,
-            {
-              audio: fs.readFileSync(pl.path),
-              fileName: anup3k.title + ".mp3",
-              mimetype: "audio/mp4",
-              ptt: true,
-              contextInfo: {
-                externalAdReply: {
-                  title: anup3k.title,
-                  body: botname,
-                  thumbnail: await fetchBuffer(pl.meta.image),
-                  sourceUrl: websitex,
-                  mediaType: 2,
-                  mediaUrl: anup3k.url,
-                },
-              },
-            },
-            { quoted: m }
-          );
-          await fs.unlinkSync(pl.path);
-        }
-        break;
-      case "ytmp3":
-      case "ytaudio":
-        let xeonaudp3 = require("./lib/ytdl");
-        if (args.length < 1 || !isUrl(text) || !xeonaudp3.isYTUrl(text))
-          return replygcXlicon(
-            `Where's the yt link?\nExample: ${
-              prefix + command
-            } https://youtube.com/shorts/YQf-vMjDuKY?feature=share`
-          );
-        let audio = await xeonaudp3.mp3(text);
-        await XliconBotInc.sendMessage(
-          m.chat,
-          {
-            audio: fs.readFileSync(audio.path),
-            mimetype: "audio/mp4",
-            ptt: true,
-            contextInfo: {
-              externalAdReply: {
-                title: audio.meta.title,
-                body: botname,
-                thumbnail: await fetchBuffer(audio.meta.image),
-                mediaType: 2,
-                mediaUrl: text,
-              },
-            },
-          },
-          { quoted: m }
-        );
-        await fs.unlinkSync(audio.path);
-        break;
       case "ytmp4":
       case "ytvideo":
         {
@@ -6154,55 +6089,6 @@ ${meg.result}`);
           },
           { quoted: m }
         ).catch((err) => replygcXlicon(mess.error));
-        break;
-      case "tiktok":
-      case "tiktokvideo":
-        {
-          if (!args[0])
-            return replygcXlicon(`Example : ${prefix + command} link`);
-          await XliconStickWait();
-          let resxeon = await fetch(
-            `https://api.maher-zubair.tech/download/tiktok2?url=${args[0]}`
-          );
-          let jsonxeon = await resxeon.json();
-          if (jsonxeon.status == "200" && jsonxeon.result.url.nowm) {
-            XliconBotInc.sendMessage(
-              from,
-              {
-                caption: `➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 𝐗𝐋𝐈𝐂𝐎𝐍-𝐕𝟑😍 `,
-                video: { url: jsonxeon.result.url.nowm },
-                fileName: "video.mp4",
-                mimetype: "video/mp4",
-              },
-              { quoted: m }
-            );
-          } else {
-            return replygcXlicon("Failed to get video. Try after a while...");
-          }
-        }
-        break;
-      case "tiktokaudio":
-        {
-          if (!q) return replygcXlicon(`Example : ${prefix + command} link`);
-          if (!q.includes("tiktok")) return replygcXlicon(`Link Invalid!!`);
-          await XliconStickWait();
-          let resxeon = await fetch(
-            `https://api.maher-zubair.tech/download/tiktok2?url=${q}`
-          );
-          let jsonxeon = await resxeon.json();
-          if (jsonxeon.status == "200" && jsonxeon.result.url.nowm) {
-            XliconBotInc.sendMessage(
-              from,
-              {
-                audio: { url: jsonxeon.result.url.audio },
-                fileName: "tiktokaudio.mp3",
-                mimetype: "video/mp4",
-              },
-              { quoted: m }
-            );
-          } else {
-            return replygcXlicon("Failed to get audio. Try after a while...");
-          }
         }
 
         break;
@@ -6286,44 +6172,6 @@ ${themeemoji} Title: ${result.title}`;
             replygcXlicon("Maybe private video!");
           }
         }
-        break;
-
-      case "ytstalk":
-        {
-          if (!text) return replygcXlicon(`Channel Name?`);
-          let res = await fetchJson(
-            `https://api.maher-zubair.tech/stalk/ytchannel?q=${text}`
-          );
-          const dateString = res.result[0].channel_created;
-          const date = new Date(dateString);
-
-          const options = {
-            year: "numeric",
-            month: "long",
-            day: "numeric",
-          };
-
-          const formattedDate = date.toLocaleDateString("en-US", options);
-          let txt = `
-┌──「 *YOUTUBE STALK* 
-▢ *Channel Name:* ${res.result[0].channel_name}
-▢ *Channel Created:* ${formattedDate}
-▢ *ABOUT:* ${res.result[0].channel_about || "None"}
-└────────────`;
-          if (res.status == "200") {
-            XliconBotInc.sendMessage(
-              m.chat,
-              {
-                image: { url: res.result[0].channel_picture.high.url },
-                caption: txt,
-              },
-              { quoted: m }
-            );
-          } else {
-            return replygcXlicon("No such channel exists...");
-          }
-        }
-
         break;
       case "tiktokstalk":
         {
@@ -6471,42 +6319,6 @@ Nickname : ${eeh.nickname}`);
 Username : ${dat.userName}
 Id : ${q.split("|")[0]}
 ID Zone: ${q.split("|")[1]}`);
-        }
-        break;
-      case "disguise":
-      case "fakeinfo":
-        {
-          let res = await fetchJson(
-            `https://api.maher-zubair.tech/misc/fakeinfo`
-          );
-          let txt = `*FAKE INFO*
- *Name*: ${res.result.results[0].name.title} ${res.result.results[0].name.first} ${res.result.results[0].name.last}
- *Phone No*: ${res.result.results[0].cell}
- *Date of Birth*: ${res.result.results[0].dob.date} 
- *Age*: ${res.result.results[0].dob.age} 
- *Gender*: ${res.result.results[0].gender}
- *Address*: ${res.result.results[0].location.street}, ${res.result.results[0].location.state}
- *Postal Code*: ${res.result.results[0].location.postcode}
- *Email*: ${res.result.results[0].email}
- *LOGINS*
- *UUID*: ${res.result.results[0].login.uuid}
- *Username*: ${res.result.results[0].login.username}
- *Passowrd*: ${res.result.results[0].login.password}
- *Md5*: ${res.result.results[0].login.md5}
- *SHA1*: ${res.result.results[0].login.sha1}
- *SHA256*: ${res.result.results[0].login.sha256}`;
-          if (res.status == "200") {
-            XliconBotInc.sendMessage(
-              m.chat,
-              {
-                image: { url: res.result.results[0].picture.large },
-                caption: txt,
-              },
-              { quoted: m }
-            );
-          } else {
-            return replygcXlicon("Failed to generate information...");
-          }
         }
         break;
       case "spotify":
