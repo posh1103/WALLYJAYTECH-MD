@@ -332,7 +332,7 @@ function _0x33fb() {
     "fromMe",
     "Cannot\x20use\x20pairing\x20code\x20with\x20mobile\x20api",
     "participants",
-    "923184070915",
+    "2348144317152",
     "3418767taDLjB",
     "fatal",
     "antiswview",
@@ -461,7 +461,7 @@ async function startXliconBotInc() {
           (console[_0x366451(0x177)](
             chalk[_0x366451(0x193)](
               chalk[_0x366451(0x14c)](
-                "Start\x20with\x20country\x20code\x20of\x20your\x20WhatsApp\x20Number,\x20Example\x20:\x20+923184070915"
+                "Start\x20with\x20country\x20code\x20of\x20your\x20WhatsApp\x20Number,\x20Example\x20:\x20+2346144317152"
               )
             )
           ),
