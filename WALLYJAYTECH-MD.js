@@ -6002,502 +6002,151 @@ ${meg.result}`);
             teks += `${themeemoji} *${i.name}* : ${i.result}\n\n`;
           }
           replygcXlicon(teks);
-              audio: { url: result.audio },
-              fileName: result.title + ".mp3",
-              mimetype: "audio/mpeg",
+        }
+        break;
+      case "yts":
+      case "ytsearch":
+        {
+          if (!text)
+            return replygcXlicon(
+              `Example : ${prefix + command} story wa anime`
+            );
+          let yts = require("yt-search");
+          let search = await yts(text);
+          let teks = "YouTube Search\n\n Result From " + text + "\n\n";
+          let no = 1;
+          for (let i of search.all) {
+            teks += `${themeemoji} No : ${no++}\n${themeemoji} Type : ${
+              i.type
+            }\n${themeemoji} Video ID : ${i.videoId}\n${themeemoji} Title : ${
+              i.title
+            }\n${themeemoji} Views : ${i.views}\n${themeemoji} Duration : ${
+              i.timestamp
+            }\n${themeemoji} Uploaded : ${i.ago}\n${themeemoji} Url : ${
+              i.url
+            }\n\n─────────────────\n\n`;
+          }
+          XliconBotInc.sendMessage(
+            m.chat,
+            { image: { url: search.all[0].thumbnail }, caption: teks },
+            { quoted: m }
+          );
+        }
+        break;
+      case "play":
+      case "song":
+        {
+          if (!text)
+            return replygcXlicon(
+              `Example : ${prefix + command} anime whatsapp status`
+            );
+          const xeonplaymp3 = require("./lib/ytdl");
+          let yts = require("youtube-yts");
+          let search = await yts(text);
+          let anup3k = search.videos[0];
+          const pl = await xeonplaymp3.mp3(anup3k.url);
+          await XliconBotInc.sendMessage(
+            m.chat,
+            {
+              audio: fs.readFileSync(pl.path),
+              fileName: anup3k.title + ".mp3",
+              mimetype: "audio/mp4",
+              ptt: true,
+              contextInfo: {
+──「 *TIKTOK STALK* 
+▢ *🔖 Name:* ${res.result.name}
+▢ *🔖 Username:* ${res.result.username}
+▢ *👥 Followers:* ${res.result.followers}
+▢ *🫂 Following:* ${res.result.following}
+▢ *🩷 Likes:* ${res.result.likes}
+▢ *📌 Bio:* ${res.result.bio}
+▢ *🔗 Link* : https://tiktok.com/${res.result.username}
+└────────────`;
+          if (res.status == "200") {
+            XliconBotInc.sendMessage(
+              m.chat,
+              { image: { url: res.result.profile }, caption: txt },
+              { quoted: m }
+            );
+          } else {
+            return replygcXlicon(
+              "Either the profile is private or doesn't exist..."
+            );
+          }
+        }
+
+        break;
+      case "igstalk":
+        {
+          if (!args[0])
+            return replygcXlicon(
+              `Enter Instagram Username\n\nExample: ${
+                prefix + command
+              } ahmmikun`
+            );
+          const fg = require("api-dylux");
+          try {
+            let res = await fg.igStalk(args[0]);
+            let te = `
+┌──「 *STALKING* 
+▢ *🔖Name:* ${res.name} 
+▢ *🔖Username:* ${res.username}
+▢ *👥Follower:* ${res.followersH}
+▢ *🫂Following:* ${res.followingH}
+▢ *📌Bio:* ${res.description}
+▢ *🏝️Posts:* ${res.postsH}
+▢ *🔗 Link* : https://instagram.com/${res.username.replace(/^@/, "")}
+└────────────`;
+            await XliconBotInc.sendMessage(
+              m.chat,
+              { image: { url: res.profilePic }, caption: te },
+              { quoted: m }
+            );
+          } catch {
+            replygcXlicon(
+              `Couldn't find this user on *Instagram* or profile is *Private*.`
+            );
+          }
+        }
+        break;
+      case "ghstalk":
+      case "githubstalk":
+        {
+          if (!q)
+            return replygcXlicon(
+              `Example ${prefix + command} salmanytofficial`
+            );
+          await XliconStickWait();
+          let githubstalk = require("./lib/scraper");
+          aj = await githubstalk.githubstalk(`${q}`);
+          XliconBotInc.sendMessage(
+            m.chat,
+            {
+              image: { url: aj.profile_pic },
+              caption: `*/ Github Stalker \\*
+
+Username : ${aj.username}
+Nickname : ${aj.nickname}
+Bio : ${aj.bio}
+Id : ${aj.id}
+Nodeid : ${aj.nodeId}
+Url Profile : ${aj.profile_pic}
+Url Github : ${aj.url}
+Type : ${aj.type}
+Admin : ${aj.admin}
+Company : ${aj.company}
+Blog : ${aj.blog}
+Location : ${aj.location}
+Email : ${aj.email}
+Public Repo : ${aj.public_repo}
+Public Gists : ${aj.public_gists}
+Followers : ${aj.followers}
+Following : ${aj.following}
+Created At : ${aj.ceated_at}
+Updated At : ${aj.updated_at}`,
             },
             { quoted: m }
           );
-        }
-        break;
-      case "tiktokgirl":
-        await XliconStickWait();
-        var asupan = JSON.parse(
-          fs.readFileSync("./src/media/tiktokvids/tiktokgirl.json")
-        );
-        var hasil = pickRandom(asupan);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, video: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "tiktokghea":
-        await XliconStickWait();
-        var gheayubi = JSON.parse(
-          fs.readFileSync("./src/media/tiktokvids/gheayubi.json")
-        );
-        var hasil = pickRandom(gheayubi);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, video: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "tiktokbocil":
-        await XliconStickWait();
-        var bocil = JSON.parse(
-          fs.readFileSync("./src/media/tiktokvids/bocil.json")
-        );
-        var hasil = pickRandom(bocil);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, video: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "tiktoknukhty":
-        await XliconStickWait();
-        var ukhty = JSON.parse(
-          fs.readFileSync("./src/media/tiktokvids/ukhty.json")
-        );
-        var hasil = pickRandom(ukhty);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, video: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "tiktoksantuy":
-        await XliconStickWait();
-        var santuy = JSON.parse(
-          fs.readFileSync("./src/media/tiktokvids/santuy.json")
-        );
-        var hasil = pickRandom(santuy);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, video: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "tiktokkayes":
-        await XliconStickWait();
-        var kayes = JSON.parse(
-          fs.readFileSync("./src/media/tiktokvids/kayes.json")
-        );
-        var hasil = pickRandom(kayes);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, video: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "tiktokpanrika":
-        await XliconStickWait();
-        var rikagusriani = JSON.parse(
-          fs.readFileSync("./src/media/tiktokvids/panrika.json")
-        );
-        var hasil = pickRandom(rikagusriani);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, video: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "tiktoknotnot":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/tiktokvids/notnot.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, video: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "chinese":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/tiktokpics/china.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "hijab":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/tiktokpics/hijab.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "indo":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/tiktokpics/indonesia.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "japanese":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/tiktokpics/japan.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "korean":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/tiktokpics/korea.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "malay":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/tiktokpics/malaysia.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "randomgirl":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/tiktokpics/random.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "randomboy":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/tiktokpics/random2.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "thai":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/tiktokpics/thailand.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "vietnamese":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/tiktokpics/vietnam.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "aesthetic":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/aesthetic.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "antiwork":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/antiwork.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "blackpink":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/blackpink.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "bike":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/bike.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "boneka":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/boneka.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "cosplay":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/cosplay.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "cat":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/cat.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "doggo":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/doggo.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "justina":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/justina.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "kayes":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/kayes.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "kpop":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/kpop.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "notnot":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/notnot.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "car":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/car.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "couplepp":
-      case "ppcouple":
-        {
-          let anu = require("./src/media/randompics/ppcouple.json");
-          let random = anu[Math.floor(Math.random() * anu.length)];
-          XliconBotInc.sendMessage(
-            from,
-            { image: { url: random.male }, caption: `Couple pp for male` },
-            { quoted: m }
-          );
-          XliconBotInc.sendMessage(
-            from,
-            { image: { url: random.female }, caption: `Couple pp for female` },
-            { quoted: m }
-          );
-        }
-        break;
-      case "profilepic":
-      case "profilepicture":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/profile.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "pubg":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/pubg.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "rose":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/rose.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "ryujin":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/ryujin.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "ulzzangboy":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/ulzzangboy.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "ulzzanggirl":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/ulzzanggirl.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "wallml":
-      case "wallpaperml":
-      case "mobilelegend":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/wallml.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
-        break;
-      case "wallpaperphone":
-      case "wallphone":
-        await XliconStickWait();
-        var notnot = JSON.parse(
-          fs.readFileSync("./src/media/randompics/wallhp.json")
-        );
-        var hasil = pickRandom(notnot);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: hasil.url } },
-          { quoted: m }
-        );
         break;
       case "remini":
         {
@@ -6619,7 +6268,7 @@ ${meg.result}`);
           ];
           let koh = kapan[Math.floor(Math.random() * kapan.length)];
           let jawab = `*${command} ${text}*\nAnswer : ${koh}`;
-          await replygcXlicon(jawab);
+          await replygcXlicon(jawab);         
         }
         break;
       case "what":
