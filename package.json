@@ -101,5 +101,6 @@
       "type": "git",
       "url": "git+https://github.com/wallyjaytechy/wallyjaytech-Md.git"
    },
+   "bugs": { "url": "https://github.com/SuhailTechInfo/Suhail-Md/issues" },    
   "homepage": "https://github.com/wallyjaytechy/wallyjaytech-Md#readme"
 }
