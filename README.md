@@ -6,7 +6,7 @@
 
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=poetsen+one&weight=900&size=50&pause=1000&color=F5F734&background=61FF9C00&center=true&vCenter=true&random=false&width=720&height=400&lines=It's+WALLYJAYTECH-MD;Multi-Device+Whatsapp+Bot;Developed+By+WALLY+JAY;+Follow+My+Github+Page;Thank+You+%F0%9F%92%95%E2%9D%A4%EF%B8%8F)](https://git.io/typing-svg)
-<p align="center"> ✔️ Fixed Heroku Ban Problem ✔️</h4> 
+<p align="center"> 😍 DEPLOY ONLY ON CODESPACE FOR NOW,OTHER DEPLOYMENT METHOD STILL UNDER MAINTENANCE 😍 </h4> 
   
 >WALLYJAYTECH-MD is based on :
 >- [whatsap bot md](https://github.com/wallyjaytechy) by [wallyjaytech](https://github.com/wallyjaytechy) (License: Apache License 2.0)
