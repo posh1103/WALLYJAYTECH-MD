@@ -8235,7 +8235,7 @@ Cieeee, What's Going On❤️💖👀`,
         ];
         const xeondare = dare[Math.floor(Math.random() * dare.length)];
         bufferdare = await getBuffer(
-          `https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`
+          `https://th.bing.com/th/id/OIP.-6kSTyrvN_leyBZg77lv2wHaLH?w=120&h=180&c=7&r=0&o=5&pid=1.7`
         );
         XliconBotInc.sendMessage(
           from,
@@ -8338,7 +8338,7 @@ Cieeee, What's Going On❤️💖👀`,
         ];
         const xeontruth = truth[Math.floor(Math.random() * truth.length)];
         buffertruth = await getBuffer(
-          `https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`
+          `https://th.bing.com/th/id/OIP.-6kSTyrvN_leyBZg77lv2wHaLH?w=120&h=180&c=7&r=0&o=5&pid=1.7`
         );
         XliconBotInc.sendMessage(
           from,
