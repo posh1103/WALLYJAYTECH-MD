@@ -4303,7 +4303,7 @@ ${themeemoji} URL: ${repoData.html_url}
                       showAdAttribution: true,
                       title: botname,
                       body: ownername,
-                      thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                      thumbnailUrl: "https://i.etsystatic.com/45530486/r/il/3569c9/5212082528/il_1588xN.5212082528_ij9k.jpg",
                       sourceUrl: wagc,
                       mediaType: 1,
                       renderLargerThumbnail: true,
