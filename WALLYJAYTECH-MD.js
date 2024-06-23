@@ -11503,7 +11503,7 @@ ${listAdmin}
           let mot = pickRandom(["⌬", "⏣", "❐", "❑", "➛", "✧", "✯"]);
           let xmenu_oh = `
 ┌─❖
-│ *_Hi_* _Senpai_ 👋 
+│ *_Hi_* _Cute_From_Wally_Jay 👋 
 └┬❖  ${pushname} 
  ✑  ${xeonytimewisher} 😄 
   └────────────┈ ▱╼❲⭐❳
