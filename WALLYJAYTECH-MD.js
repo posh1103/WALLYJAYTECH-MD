@@ -8227,6 +8227,56 @@ Cieeee, What's Going On❤️💖👀`,
           { image: buffergooddare, caption: "_You choose DARE_\n" + xeoncgooddare },
           { quoted: m }
         );
+      break;
+      case "sexualdare":
+        const sexualdare = [
+        "Act your favorite sex move.",
+"Sleep in your favorite sex position.",
+"Record a video explaining your views on using sex toys.",
+"Tell me about any three sex toys you have used to date.",
+"Describe your last intercourse in details",
+"Act like you are doing the foreplay you like the most.",
+"Send me the picture of your dream place to have sexual intimacy.",
+"Send me your favorite porn video.",
+"Call your partner and turn him/ her on.",
+"Send a video of you masturbating to your partner.",
+"Send a photo of you naked with just shoes and and hat on.",
+"Call your partner and have them quiz you on basic math or trivia for a minute while you watch porn. Let’s see how good you do!",
+"Recreate a famous romance scene from a movie and send a video.",
+"Read a hot excerpt online or from a book aloud over a call or send a video.",
+"Make your partner pick random songs that you have to dirty dance to no matter what they are!",
+"Draw a photo of your partner and post it on social media with a sappy caption.",
+"Send a video of you attempting a popular dance move.",
+"Do a pole dance with a human pole.",
+"Give a foot massage to any willing participant.",
+"Reveal your sexiest dream.",
+"Talk in a seductive voice for 1 hour.",
+"Perform a 3-minute standup comedy act.",
+"Hold someone’s hand for the rest of the game.",
+"Give everyone a Pet Name.",
+"Twerk with a Bee gees song.",
+"Kiss a Pillow for 1 minute.",
+"Sell yourself to someone in your group.",
+"Dress up in something your partner would find sexy.",
+"Turn on your partner by sexily sucking on their finger.",
+"Have your partner lay down and kiss them upside down the best you can.",
+"Give your partner a lesson on giving head to them with an object from the kitchen.",
+"Have your partner spank you as hard as they can.",
+"Whisper a sexy name in my ear that you’ve never called me but have thought about trying.",
+"Use a sex toy to try and get your partner in the mood.",
+"Have your partner blindfold you and touch you with a part of their body. If you guess", 
+"What part of their body they’re touching you with, you get a special reward.",
+"Seduce your partner in a room where you have never had s#x before.",
+                  ];
+        const xeonsexualdare = sexualdare[Math.floor(Math.random() * sexualdare.length)];
+        buffergsexualdare = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: buffersexualdare, caption: "_You choose DARE_\n" + xeoncsexualdare },
+          { quoted: m }
+        );
         break;
       case "truth":
         const truth = [
