@@ -8750,6 +8750,85 @@ Cieeee, What's Going On❤️💖👀`,
           from,
           { image: buffergirldare, caption: "_You choose DARE_\n" + xeongirldare },
           { quoted: m }
+                   );
+      break;
+      case "friendsdare":
+        const friendsdare = [
+                  "Describe your ideal boobs in detail.",
+         "Describe your ideal size, shape and any other traits of your ideal dick.",
+         "Tell us the one thing you love the most in men’s or women’s bodies.",
+         "Do a lap dance and striptease to all opposite-sex persons in this game.",
+         "Recreate the scene on your first interaction when you first met.",
+         "Recreate a demo of the first time when you tried doing it.",
+         "Send a voice message of your best sex moans.",
+         "Send a video of you trying to put on every piece of underwear you own.",
+         "Send a video of you using your favorite sex toy.",
+         "Send a video of you doing a strip tease.",
+         "Order something sexy to wear when you see the other person.",
+         "Drink water like a dog from someone’s palm",
+         "Kiss the person to your left.",
+         "Play a song using your butt cheeks as a drum and have someone guess it.",
+         "Show someone your favorite underwear.",
+         "Flirt with a piece of fruit and eat it after.",
+         "Lick or bite your lips in a more seductive way.",
+         "Send a video of you pleasuring yourself.",
+         "Send a voice message of your best dirty talk.",
+         "Wear your underwear on your head for five minutes.",
+         "Seductively eat a banana.",
+         "Twerk for a minute.",
+         "Send a sexy text to the 20th person in your contact list.",
+                ];
+        const xeonfriendsdare= friendsdare[Math.floor(Math.random() * friendsdare.length)];
+        bufferfriendsdare = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: bufferfriendsdare, caption: "_You choose DARE_\n" + xeonfriendsdare },
+          { quoted: m }
+                   );
+      break;
+      case "bestdare":
+        const bestdare = [
+         "Do a happy dance to a nasty song.",
+         "Go to your closet and put on the hottest outfit you own.",
+         "Name a celebrity that you have fantasized about.",
+         "Send me your most sexy and seductive face.",
+         "Eat a pudding cup using only your mouth.",
+         "Write a love poem.",
+         "Sing your favorite love-making song.",
+         "List all of your ex’s in alphabetical order.",
+         "Tell me your entire roster of who you’ve smashed.",
+         "Call the most recent person in your call log and make moaning noises.",
+         "Take your shirt off.",
+         "Tell me the most flexible thing you could do.",
+         "Name your ugliest ex.",
+         "Tell me your best pick-up line.",
+         "Do a sit-up for every sexual position you know.",
+         "Change your Facebook status to “looking for a hookup.”",
+         "Send a video of you picking your nose.",
+         "I dare you to send a dirty emoji.",
+         "Send a message about your sexual feelings for me to your best friend.",
+         "Say “I’m sleepy” while having a serious conversation with your best friend.",
+         "Video call me and do something embarrassing in front of your parents.",
+         "Tell a dirty joke to your best friend and record their reaction.",
+         "Describe yourself only using dirty talk.",
+         "Lick a tootsie pop for the rest of the game. And count how many licks it takes to get to the center.",
+         "Twerk while singing your ABCs.",
+         "Perform the most flexible thing you could do with your body.",
+         "Do the WAP Dance and post it to Tik Tok.",
+         "Go to a bar and order a “leg spreader” and record the bartender’s reaction.",
+         "Read the lyrics My Neck My Back by Khia out loud to your parents.",
+         "Change your Instagram username to something dirty and post a selfie. And leave it for 30 mins before you change it back.",
+                ];
+        const xeonbestdare= bestdare[Math.floor(Math.random() * bestdare.length)];
+        bufferfriendsdare = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: bufferbestdare, caption: "_You choose DARE_\n" + xeonbestdare },
+          { quoted: m }
         );
         break;
       case "truth":
