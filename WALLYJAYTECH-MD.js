@@ -8224,7 +8224,7 @@ Cieeee, What's Going On❤️💖👀`,
         );
         XliconBotInc.sendMessage(
           from,
-          { image: buffergooddare, caption: "_You choose DARE_\n" + xeoncgooddare },
+          { image: buffergooddare, caption: "_You choose DARE_\n" + xeongooddare },
           { quoted: m }
         );
       break;
@@ -8269,7 +8269,7 @@ Cieeee, What's Going On❤️💖👀`,
 "Seduce your partner in a room where you have never had s#x before.",
                   ];
         const xeonsexualdare = sexualdare[Math.floor(Math.random() * sexualdare.length)];
-        buffergsexualdare = await getBuffer(
+        buffersexualdare = await getBuffer(
           `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
         );
         XliconBotInc.sendMessage(
@@ -8321,7 +8321,7 @@ Cieeee, What's Going On❤️💖👀`,
          "Try being sexy while holding your tongue and talking.",
          "Pick two things from your kitchen and use them to act out your favorite s#x position.",
                   ];
-        const xeonnaughtydare = naughtydare[Math.floor(Math.random() * sexualdare.length)];
+        const xeonnaughtydare = naughtydare[Math.floor(Math.random() * naughtydare.length)];
         buffernaughtydare = await getBuffer(
           `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
         );
@@ -8526,13 +8526,59 @@ Cieeee, What's Going On❤️💖👀`,
          "Call a random restaurant or any other place in your mind and tell the person who receives your call a dirty joke or story.",
          "Drink two torts of your favorite drink on your body.",
         ];
-        const xeoncrazydare = flirtydare[Math.floor(Math.random() * flirtydare.length)];
+        const xeoncrazydare = crazydare[Math.floor(Math.random() * crazydare.length)];
         buffercrazydare = await getBuffer(
           `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
         );
         XliconBotInc.sendMessage(
           from,
           { image: buffercrazydare, caption: "_You choose DARE_\n" + xeoncrazydare },
+          { quoted: m }
+                 );
+      break;
+      case "funnydare":
+        const funnydare = [
+         " Fake your best orgasm in front of the group.",
+"Do a naked lap around the neighborhood.",
+"Sexily lick the food of your choice off the finger of the person to your left.",
+"Kiss someone in the room that you’re attracted to.",
+"Leave a sexy voicemail for your ex to listen to.",
+"Pick a position and imitate it with the person to your right.",
+"Find a position online that you’ve never tried and act it out on furniture that’s in the room.",
+"Prank call someone and pretend to be a s#x ad.",
+"Trace the lips of someone here and whisper something sexy.",
+"Do a mini strip tease by taking off some of your clothing in front of the group.",
+"For the next round, you have to keep your hand on the inner thigh of the person to your left.",
+"Message something bold to someone hot you’ve been wanting to get to know.",
+"Post something raunchy on your preferred social media app and you can’t remove it until the next round is over.",
+"Give someone else in the group a sexy massage while talking dirty.",
+"If there’s water nearby, it’s time to go skinny dipping!",
+"Time to play spin the bottle! Kiss whoever the bottle lands on.",
+"Close your eyes while a few members of the group stand across from you. Walk with your hands open until you touch one of them, then kiss them wherever your hand touched.",
+"Give the person to your left an eskimo kiss.",
+"You’ve been naughty, time to be put in time out on someone’s lap for the next round.",
+"Pick something small to sexily feed someone else in the group.",
+"Leave the room while everyone in the group pours a shot. When you come back, pick a shot to take. Whoever poured that shot, you have to kiss.",
+"Talk in a raunchy accent until your next turn.",
+"Scroll blindly through your contacts and whoever you land on, say one sexy thing about them.",
+"Give your best impression of a naughty cop who’s trying to arrest someone for being too sexy.",
+"Give the person to your right a butterfly kiss.",
+"Wink and do your best sexy face for the group.",
+"Pretend to have awful sex with the person to your right.",
+"Send bold, dirty message to someone you’ve hooked up with before.",
+"Call a phone sex line and pretend to have an odd fetish.",
+"Take a pen and paper and draw your penis or vagina.",
+"FaceTime an old hookup. If they pick up, say something raunchy before hanging up.",
+"Fake a blowjob on a bottle.",
+"Describe your favorite position in detail but without saying what it is. See if the group can guess it!",
+                ];
+        const xeonfunnydare= funnydare[Math.floor(Math.random() * funnydare.length)];
+        bufferfunnydare = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: bufferfunnydare, caption: "_You choose DARE_\n" + xeonfunnydare },
           { quoted: m }
         );
         break;
@@ -8635,53 +8681,7 @@ Cieeee, What's Going On❤️💖👀`,
         XliconBotInc.sendMessage(
           from,
           { image: buffertruth, caption: "_You choose TRUTH_\n" + xeontruth },
-          { quoted: m }
-                 );
-      break;
-      case "funnydare":
-        const funnydare = [
-         " Fake your best orgasm in front of the group.",
-"Do a naked lap around the neighborhood.",
-"Sexily lick the food of your choice off the finger of the person to your left.",
-"Kiss someone in the room that you’re attracted to.",
-"Leave a sexy voicemail for your ex to listen to.",
-"Pick a position and imitate it with the person to your right.",
-"Find a position online that you’ve never tried and act it out on furniture that’s in the room.",
-"Prank call someone and pretend to be a s#x ad.",
-"Trace the lips of someone here and whisper something sexy.",
-"Do a mini strip tease by taking off some of your clothing in front of the group.",
-"For the next round, you have to keep your hand on the inner thigh of the person to your left.",
-"Message something bold to someone hot you’ve been wanting to get to know.",
-"Post something raunchy on your preferred social media app and you can’t remove it until the next round is over.",
-"Give someone else in the group a sexy massage while talking dirty.",
-"If there’s water nearby, it’s time to go skinny dipping!",
-"Time to play spin the bottle! Kiss whoever the bottle lands on.",
-"Close your eyes while a few members of the group stand across from you. Walk with your hands open until you touch one of them, then kiss them wherever your hand touched.",
-"Give the person to your left an eskimo kiss.",
-"You’ve been naughty, time to be put in time out on someone’s lap for the next round.",
-"Pick something small to sexily feed someone else in the group.",
-"Leave the room while everyone in the group pours a shot. When you come back, pick a shot to take. Whoever poured that shot, you have to kiss.",
-"Talk in a raunchy accent until your next turn.",
-"Scroll blindly through your contacts and whoever you land on, say one sexy thing about them.",
-"Give your best impression of a naughty cop who’s trying to arrest someone for being too sexy.",
-"Give the person to your right a butterfly kiss.",
-"Wink and do your best sexy face for the group.",
-"Pretend to have awful sex with the person to your right.",
-"Send bold, dirty message to someone you’ve hooked up with before.",
-"Call a phone sex line and pretend to have an odd fetish.",
-"Take a pen and paper and draw your penis or vagina.",
-"FaceTime an old hookup. If they pick up, say something raunchy before hanging up.",
-"Fake a blowjob on a bottle.",
-"Describe your favorite position in detail but without saying what it is. See if the group can guess it!",
-                ];
-        const xeonfunnydare= funnydare[Math.floor(Math.random() * funnydare.length)];
-        buffergsfunnydare = await getBuffer(
-          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
-        );
-        XliconBotInc.sendMessage(
-          from,
-          { image: bufferfunnydare, caption: "_You choose DARE_\n" + xeonfunnydare },
-          { quoted: m }
+          { quoted: m }         
         );
         break;
       case "cry":
