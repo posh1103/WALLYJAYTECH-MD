@@ -8451,6 +8451,54 @@ Cieeee, What's Going On❤️💖👀`,
           from,
           { image: bufferfreakydare, caption: "_You choose DARE_\n" + xeonfreakydare },
           { quoted: m }
+                          );
+      break;
+      case "flirtydare":
+        const flirtydare = [
+         "Be someone’s pet.",
+         "Give someone a hickey.",
+         "Get a Hickey from someone.",
+         "Blindfold and make me a sandwich.",
+         "Pretend to be a cat.",
+         "Send a dirty text using only emojis to your best friend.",
+         "Eat a cupcake in the most seductive way possible.",
+         "Describe what you would do to me if you saw me in something sexy.",
+         "Describe the parts of a girl/boy that get you turned on.",
+         "Try to do a split.",
+         "Tell me your wildest sexual fantasies.",
+         "Send your ex an “I miss you” message.",
+         "Send me a voice message telling me about anything.",
+         "Tell me five things you don’t like about me.",
+         "Send me a picture of you without a shirt.",
+         "Walk around with your zip open for the whole day.",
+         "Mention five porn sites you have visited recently.",
+         "Send a Facebook status praising me.",
+         "Put your underwear in a freezer for an hour and wear it.",
+         "Drop an ice cube in your pants.",
+         "Wear underwear over your trousers and go outside for five minutes.",
+         "Update your Facebook status saying “I am coming,” then after a one-minute post, “I just came.”",
+         "Play a song by slapping your butt cheeks until I guess the song.",
+         "Write a short love poem and send it to me.",
+         "Dance with a broom for five minutes.",
+         "Drag your butt on the carpet like a dog from one end of the room to the next.",
+         "Call your crush and flirt sleazily with them.",
+         "Take an item of food from the refrigerator and kiss it passionately for 60 seconds.",
+         "Cross-dress and set it as a profile pic.",
+         "Talk like a flirtatious Casanova.",
+         "Fill your mouth with cotton.",
+         "Slow dance with someone while listening to a fast song.",
+         "Show your best O-face.",
+         "Give someone a lap dance in a tone of a nursery rhyme.",
+         "Give someone horseback and gallop for a minute while on all fours.",
+        ];
+        const xeonflirtydare = flirtydare[Math.floor(Math.random() * flirtydare.length)];
+        bufferflirtydaree = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: bufferflirtydare, caption: "_You choose DARE_\n" + xeonflirtydare },
+          { quoted: m }         
         );
         break;
       case "truth":
