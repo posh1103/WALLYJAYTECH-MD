@@ -8580,6 +8580,176 @@ Cieeee, What's Going On❤️💖👀`,
           from,
           { image: bufferfunnydare, caption: "_You choose DARE_\n" + xeonfunnydare },
           { quoted: m }
+                  );
+      break;
+      case "mandare":
+        const mandare = [
+                  "Drop an ice cube inside your partner’s underwear for 30 seconds.",
+         "Run an ice cube block all over your partner’s body until it melts.",
+         "Give 3 pecs to your partner’s privates.",
+         "Switch underwear with your partner for the rest of the game.",
+         "Allow your partner to touch your most sensitive parts for 2 minutes and don’t get hard.",
+         "Act as a sex slave and record the video.",
+         "Search your favorite porn site and category and show it to all players.",
+         "Retrieve your favorite porn video and watch it with all players.",
+         "Give the person closest to you (opposite sex) a back rub.",
+         "Take off your partner’s underwear with your teeth.",
+         "Take off your partner’s bra using your teeth.",
+         "Make love with your partner for exactly 2 minutes (120 seconds) and STOP!",
+         "Kiss your favorite part in your partner’s body.",
+         "Kiss your partner’s nipples 2 times if you like dirty dares for adults.",
+         "Node your head without saying a word if you’d like to play dirty dares for adults again.",
+         "Smile without saying a word if you think dirty dares for adults is one of your best games ever.",
+         "Read to me the dirtiest poem you have ever come across.",
+         "Play the dirtiest music you will not wish your kids to ever find or listen to in the future.",
+         "Tell us the nastiest thing you have ever thought of doing that you currently find embarrassing.",
+         "Sing the most romantic and dirty song you have in mind.",
+         "Compose the dirtiest poem and read it aloud for everyone to hear.",
+         "Look me in the eye and say the dirtiest thoughts that come to your mind.",
+         "Update your Whatsapp status with, “I AM FEELING H#RNY” for an hour.",
+         "Write down your best bedroom experience and give it to the next person to read it aloud.",
+         "Describe your last bedroom experience in detail.",
+         "Demonstrate to e how you will love to be cuddled.",
+         "Describe how you will prefer someone to make love to you.",
+         "Describe how you will prefer someone to make love to you.",
+         "Demonstrate how you love to be massaged.",
+         "Try convincing me to make out with you right now.",
+         "Try a hot lap dance on me right now.",
+         "Tell us the best pickup lines that someone has ever used on you and you fell for them.",
+         "Tell us the worst pickup lines ever that someone has ever used on you.",
+         "Do a dirty sexy dance, record it, and send it over to my phone.",
+         "Go to the bathroom, take a selfie and show it to everyone 4 seconds at a time then delete it.",
+         "Change into a night robe with nothing inside show your naked body to your partner for a few seconds and record how they react.",
+         "Wear your partner’s underwear and take a selfie with it.",
+         "Act shyly like a ten crush and record it using your phone.",
+                ];
+        const xeonmandare= mandare[Math.floor(Math.random() * mandare.length)];
+        buffermandare = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: buffermandare, caption: "_You choose DARE_\n" + xeonmandare },
+          { quoted: m }
+                  );
+      break;
+      case "womandare":
+        const womandare = [
+                  "",
+         "Take off your bra but leave your shirt on.",
+         "Let me have a glimpse of your p#ssy.",
+         "Touch tongues with someone.",
+         "Demonstrate your best technique for you-know-what on your finger.",
+         "Do your best sexy crawl.",
+         "Read the most romantic or dirtiest text still on your phone right now.",
+         "Tell us your scariest sexual experience.",
+         "Propose to your partner something you think might not be welcome for your bedroom moments.",
+         "Prank your partner about breaking up and moving in with someone he might be suspecting the most.",
+         "Prank your partner about being pregnant but not for them or something that will scare them off.",
+         "Tell us the worst things you do or say to get someone to lay with you.",
+         "Tell us your one dirty bedroom secret.",
+         "Try your best to make your partner orgasm in less than 5 minutes.",
+         "Show your partner a porn video you want to act right now.",
+         "Turn your partner on without touching any place below their waist.",
+         "Send your partner the dirtiest text that first pops into your mind.",
+         "Choose between dirty dares for adults vs. cards against humanity.",
+         "Rate this sexual dirty dares for adults game out of 10.",
+         "Remain silent and frozen for the next 60 seconds.",
+         "Twerk in your underwear.",
+         "With your clothes on, go on to your partner and ride them crazy.",
+         "Lick and suck the nipples of your partner for a minute.",
+         "Kiss your partner all around down there for 60 seconds.",
+         "Nibble your partner’s booty twice.",
+         "Do the wort impression you have ever seen of someone orgasm.",
+         "Seduce your partner and see how far you will go in 3 minutes.",
+         "Put whipped cream on the part of your partner’s body you want to lick and lick it all.",
+         "Touch yourself until you climax while your partner is watching.",
+         "Stay naked to the end of the game.",
+         "Open the front door while completely naked.",
+         "Sing a 2 minutes video about your partner.",
+         "Bite your partner’s bottom lip.",
+         "Whisper a few words to your spouse’s ear that will automatically turn them on.",
+         "Do an impression of your partner when they are climaxing.",
+         "Give your perfect hand job for exactly 3 minutes.",
+                ];
+        const xeonwomandare= womandare[Math.floor(Math.random() * womandare.length)];
+        bufferwomandare = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: bufferwomandare, caption: "_You choose DARE_\n" + xeonwomandare },
+          { quoted: m }
+                   );
+      break;
+      case "boydare":
+        const boydare = [
+                  "Send a nude picture snapped anywhere…except in bedroom or the bathroom.",
+         "Put ice cubes in your underwear and dance for 5 minutes with it.",
+         "Perform a sexy erotic dance with a pole.",
+         "Let me have a glimpse of your dick.",
+         "Turn me on in 60 seconds.",
+         "Send a picture of best “seduction face.”",
+         "Strip down your underwear and stay without one for the rest of the game.",
+         "Have the most seductive pose you can and hold in the position for 20 seconds.",
+         "Guess who among us is most likely not to have underwear right now.",
+         "Take a nude selfie in the bathroom and show it to everyone for 3 seconds.",
+         "Take off your shirts with just one hand.",
+         "Lick your lips in a sexy seductive way.",
+         "Text a random friend something really dirty and apologize.",
+         "Text your ex 3 dirty dares for adults “accidentally”.",
+         "Send everyone here a different dirty dare for adults’ text you can ever think of.",
+         "Accidentally sext your ex.",
+         "Accidentally send a nasty text to one of your parents.",
+         "Get a mature content video, watch it and narrate it to everyone here.",
+                ];
+        const xeonboydare= boydare[Math.floor(Math.random() * boydare.length)];
+        bufferboydare = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: bufferboydare, caption: "_You choose DARE_\n" + xeonboydare },
+          { quoted: m }
+                   );
+      break;
+      case "girldare":
+        const girldare = [
+                  "",
+         "Put a shock in your underwear and pretend to be a guy for five minutes.",
+         "Give a PowerPoint presentation on sexual intimacy.",
+         "Take off your underwear without showing anyone.",
+         "Style yourself with your boyfriend’s shirt and send him a picture.",
+         "Draw two eyes just above your belly button and pretend it is a character.",
+         "Copy the style of your favorite celebrity and make a video.",
+         "Shoot a get ready with me video for your social media.",
+         "Give away one outfit from your wardrobe to someone from this room.",
+         "Call your partner and prank them by saying you are pregnant.",
+         "Call your crush and ask him/ her out for a date.",
+         "Tell us your planning for your wedding in detail.",
+         "Dress up yourself using anything you get from the kitchen.",
+         "Grab a comb and pretend to be a superstar.",
+         "Dress up as your favorite celebrity and try to mimic him/ her.",
+         "Dress up as a Disney princess and do a seductive dance.",
+         "Fake all your best friends and prank her/ him saying you are getting married.",
+         "Do a sexy crawl and make a video of it.",
+         "Touch someone else’s tongue with yours.",
+         "Shave your arms and click a picture.",
+         "Grab a broom and do a seductive dance with it.",
+         "Do some dance movies while folding your washed clothes.",
+         "Pretend to be a celebrity and give a long speech.",
+         "Let someone in this room give you a new hairstyle.",
+         "Confess something to your partner that you were hiding for a long time.",
+         "Draw faces on the top of your fingers and talk to them for a few minutes.",
+                ];
+        const xeongirldare= girldare[Math.floor(Math.random() * girldare.length)];
+        buffergirldare = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: buffergirldare, caption: "_You choose DARE_\n" + xeongirldare },
+          { quoted: m }
         );
         break;
       case "truth":
