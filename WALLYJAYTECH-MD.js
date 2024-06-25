@@ -8393,6 +8393,64 @@ Cieeee, What's Going On❤️💖👀`,
           from,
           { image: buffersexydare, caption: "_You choose DARE_\n" + xeonsexydare },
           { quoted: m }
+                          );
+      break;
+      case "freakydare":
+        const freakydare = [
+                  "Pretend to have an orgasm while maintaining eye contact with someone in this room.",
+         "Choose someone from this room to go skinny dipping in a pool.",
+         "Go to your roof and haul like a wild wolf for five minutes.",
+         "Call your best friend and laugh like a ghost.",
+         "Record the sound while you masturbate and send it to me.",
+         "Spank your partner.",
+         "Call someone and make him/ her feel horny.",
+         "Make out with your partner like a porn video.",
+         "Moan pretending you are having the most satisfying orgasm.",
+         "Teach someone the anatomy of a human.",
+         "Imitate your favorite teacher and make a video of it.",
+         "Imitate the person you hate and make a video of it.",
+         "Eat the food you hate for the rest of this day.",
+         "Sit on the floor for the whole day.",
+         "Sleep on the couch of your home for a week.",
+         "Do a prank on your mother.",
+         "Call your best friend from an unknown number and prank him/ her.",
+         "Call your partner from an unknown number and try to flirt with him/ her with a different voice.",
+         "Talk to the person you dislike for five minutes.",
+         "Give your savings for this month to your parents.",
+         "Gift a sex toy to your partner.",
+         "Make a video of doing something naughty and send it to me.",
+         "Blindfold yourself and kiss the first person you can touch.",
+         "Choose someone in this room to lick whipped cream from your finger.",
+         "Share with us the last voicemail you have sent to your ex.",
+         "Do lap dance on someone in this room.",
+         "Talk dirty to your hand in front of everyone.",
+         "Let everyone in this room check your browser history.",
+         "Lie down on the floor and let someone draw an outline of your body.",
+         "Go to a dating site and try to find a match for yourself.",
+         "Let everyone in this room make some surprise drink for you and choose any five and drink.",
+         "Post a Facebook status saying ‘I am coming’.",
+         "Put on some swimsuits and ask someone to rub some sunscreen on your back.",
+         "Give someone in this room a full body massage.",
+         "Whisper something seductively in someone’s ear in this room.",
+         "Convince your partner to let you give him/ her a makeover.",
+         "Write about your stupidest experience till now and post it on your social media.",
+         "Text your crush and then apologize saying it was a mistake.",
+         "Send a voicemail to your crush.",
+         "Get dressed like your partner and send him/ her a photo of yourself.",
+         "Demonstrate a sexual position with your pillow.",
+         "Turn off the light and hug the first person you can touch.",
+         "Make a video of working out and send it to your crush.",
+         "Ask someone in this room to give you a full body massage.",
+         "Give your partner a head massage.",
+        ];
+        const xeonfreakydare = freakydare[Math.floor(Math.random() * freakydare.length)];
+        bufferfreakydare = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: bufferfreakydare, caption: "_You choose DARE_\n" + xeonfreakydare },
+          { quoted: m }
         );
         break;
       case "truth":
