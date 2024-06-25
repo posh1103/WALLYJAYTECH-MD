@@ -8276,6 +8276,123 @@ Cieeee, What's Going On❤️💖👀`,
           from,
           { image: buffersexualdare, caption: "_You choose DARE_\n" + xeonsexualdare },
           { quoted: m }
+                 );
+      break;
+      case "naughtydare":
+        const naughtydare = [
+         "Bend your partner over your knee and spank them while telling them they’re a bad boy/girl.",
+         "Send an up close and personal video of every part of you naked.",
+         "Send a video of you singing in the shower.",
+         "Post how you’re currently feeling on social media and don’t take it down until your next turn.",
+         "Send me the naughtiest text that comes to mind.",
+         "Go to the bathroom and make intense moans and grunts and send me a video for proof!",
+         "Send me a dirty text in emoji’s that I have to figure out.",
+         "Send photos of you acting out 5 dirty emoji’s.",
+         "Write a sexy haiku and send it to me.",
+         "Send me the ugliest selfie you have on your phone.",
+         "Send whichever photo is 5 photos back in your camera roll.",
+         "Send me the most recent text you sent to your best friend.",
+         "Write me a quick naughty story and send it my way.",
+         "Send a random emoji to the first person in your contacts with no explanation.",
+         "Every time you receive a notification not from me, you have to remove an article of clothing.",
+         "Send a video of you sexily licking something off your finger.",
+         "Send a photo of you sexily sucking on something.",
+         "Send a video of you trying to make out with your hand.",
+         "Send a photo of what you think the least sexy part of your body is.",
+         "Send a photo of what you think the sexiest part of your body is.",
+         "Send me a photo of your sexiest pair of underwear.",
+         "Go outside with no clothes on and send a photo for proof!",
+         "Send a video of you trying to do a sexy dance move.",
+         "Send a video of you giving a chair a lap dance.",
+         "Draw a photo of me and send a picture of it to me.",
+         "Imitate 12 swimsuit calendar poses and send them my way.",
+         "Send me a sexy selfie with only your face.",
+         "Let your partner pick what profile picture you get to have for the remainder of the evening.",
+         "Demonstrate how you masturbate on an object in your room.",
+         "Give a tutorial on your best sexual technique on something in your room.",
+         "Slap yourself somewhere hot.",
+         "Do a naked cartwheel and send a video.",
+         "Order your partner something to eat and they have to try whatever it is.",
+         "Change into the hottest outfit you have and pose in it like a model.",
+         "Send a video of you pretending your butt is the one talking.",
+         "Sing a song sexily into the camera.",
+         "Cut off a little bit of your hair.",
+         "Draw something on your face with marker.",
+         "Try being sexy while holding your tongue and talking.",
+         "Pick two things from your kitchen and use them to act out your favorite s#x position.",
+                  ];
+        const xeonnaughtydare = naughtydare[Math.floor(Math.random() * sexualdare.length)];
+        buffernaughtydare = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: buffernaughtydaree, caption: "_You choose DARE_\n" + xeonnaughtydare },
+          { quoted: m } 
+                 );
+      break;
+      case "sexydare":
+        const sexydare = [
+                  "",
+         "Give over your phone to your partner and let them decide on a sex toy you two can try together.",
+         "Have your partner read through your browsing history in a sexy voice.",
+         "Make a sexy song playlist with your partner.",
+         " Sexily wash your partner’s feet.",
+         "Be blindfolded and tickled or lightly touched for one minute.",
+         "Have your partner close their eyes and try to turn them on only using sounds.",
+         "Try to turn on your partner by blowing on the back of their neck, alternating between cold and hot.",
+         "Place a hand in your partner’s underwear for the next round and try to arouse them.",
+         "Draw something on your partner’s back. If they guess correctly, they get a special favor of their choosing, if not, you get one.",
+         "Call the parents of your partner and express to them how much you adore your partner.",
+         "Your partner gets to dress you up in their clothes and take a photo.",
+         "Give your partner a hot lap dance.",
+         "Whisper something not sexy into your partner’s ear but try to make it sound hot.",
+         "Describe your partner’s naked body in intense, erotic detail.",
+         "Wear handcuffs or have your hands tied for a few turns.",
+         "Trade clothes with your partner.",
+         "Take a body shot off your partner.",
+         "Show your partner your go-to porn video.",
+         "Give your partner a sexy full-body massage.",
+         "Give your phone to your partner and let them order something hot for you to wear.",
+         "Turn on your partner by only touching their arms and hands.",
+         "Lick something yummy off your partner’s body part of choice.",
+         "Take off a piece of your partner’s clothing, only using your teeth.",
+         "Trace your partner’s body with an ice cube that’s being held in your mouth.",
+         "Beg your partner to do naughty things to you. It better be convincing!",
+         "Give your partner head with their clothes on.",
+         "Do whatever your partner says for one minute.",
+         "Put on the hottest song you know and try to seduce your partner with it.",
+         "Make your best orgasm face and let your partner take a photo of it. This is your lock screen for the next 24 hours.",
+         "Become a sexy chef while teaching your partner how to make a fun late night snack while just wearing an apron.",
+         "Find an old photograph and try to recreate it together.",
+         "Have your partner ask 3 questions about themselves that you should know the answers to. If you get them right, you get a reward. If you get them wrong, you get punished.",
+         "Have your partner take a picture of you looking naughty.",
+         "Give your partner a massage without using your hands.",
+         "Act out how you remember your first date in 30 seconds.",
+         "Lick your partner’s feet for 15 seconds.",
+         "Set a timer and try to make your partner orgasm in 5 minutes.",
+         "Set a timer for 2 minutes and try not to get turned on by whatever your partner decides to do to you.",
+         "Watch porn together and try to imitate what you see on the screen.",
+         "Perform a strip tease for your partner.",
+         "Lick your partner’s nipples.",
+         "Kiss your partner in the sexiest place and sexiest way possible.",
+         "Undress your partner with one hand.",
+         "Suck on your partner’s finger like you’re giving those head.",
+         "Send a naughty text message to your partner.",
+         "Become a sexy chef and spank your partner sexily with an item from the kitchen.",
+         "Arouse your partner by only using your tongue.",
+         "Attempt to make a sex tape with your partner.",
+         "Let your partner blindfold you and do what they want to you for a minute.",
+         "Sexily perform good foreplay on your partner’s ear to get them aroused.",
+        ];
+        const xeonsexydare = sexydare[Math.floor(Math.random() * sexydare.length)];
+        buffersexydare = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: buffersexydare, caption: "_You choose DARE_\n" + xeonsexydare },
+          { quoted: m }
         );
         break;
       case "truth":
