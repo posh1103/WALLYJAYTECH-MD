@@ -8177,13 +8177,13 @@ Cieeee, What's Going On❤️💖👀`,
 "Experiment with temperature play by incorporating ice and warm water into your foreplay.",
 "Watch explicit adult content together and discuss what turns you on.",
         ];
-        const xeondare = dare[Math.floor(Math.random() * dare.length)];
-        bufferdare = await getBuffer(
-          `https://th.bing.com/th/id/OIP.DUeOL7QxJN5rJnDqkkqVvQHaHa?rs=1&pid=ImgDetMain`
+        const xeoncouplesdare = couplesdare[Math.floor(Math.random() * couplesdare.length)];
+        buffercouplesdare = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
         );
         XliconBotInc.sendMessage(
           from,
-          { image: bufferdare, caption: "_You choose DARE_\n" + xeondare },
+          { image: buffercouplesdare, caption: "_You choose DARE_\n" + xeoncouplesdare },
           { quoted: m }
         );
         break;
