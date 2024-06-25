@@ -11507,6 +11507,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
 │➛ ${xprefix}ᴅᴀᴛᴀʙᴀsᴇᴍᴇɴᴜ
 │➛ ${xprefix}sᴛᴀʟᴋᴇʀᴍᴇɴᴜ
 │➛ ${xprefix}ʙᴜɢᴍᴇɴᴜ
+│➛ ${xprefix}TRUTHSANDDARESMENU
 │➛ ${xprefix}ᴏᴛʜᴇʀᴍᴇɴᴜ
 ╰▱╼❲⭐❳`;
           if (typemenu === "v1") {
