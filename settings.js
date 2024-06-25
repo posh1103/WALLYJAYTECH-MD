@@ -43,9 +43,9 @@ global.websitex = process.env.YT_LINK || "https://youtube.com/@wallyjaytechy"
 //________________________________________________________________________________________________________
 global.wagc = process.env.GL_PUSH || "https://wa.me/2348144317152"
 //________________________________________________________________________________________________________
-global.themeemoji = process.env.GL_EMOJI || '🏮'
+global.themeemoji = process.env.GL_EMOJI || '🤖'
 //________________________________________________________________________________________________________
-global.wm = process.env.GL_WM || "© WALLYJAYTECH-INC"
+global.wm = process.env.GL_WM || "© 2024 WALLYJAYTECH-INC"
 //________________________________________________________________________________________________________
 global.botscript = process.env.GL_SC || 'https://github.com/wallyjaytechy/WALLYJAYTECH-MD' //script link
 //________________________________________________________________________________________________________
@@ -55,7 +55,7 @@ global.author = process.env.AUTHER_NAME || "MADE BY WALLY JAY TECH"
 //________________________________________________________________________________________________________
 global.creator = process.env.GL_DEVS || "2348144317152@s.whatsapp.net"
 //________________________________________________________________________________________________________
-global.xprefix = process.env.PREFIX || '.'
+global.xprefix = process.env.PREFIX || ''
 //________________________________________________________________________________________________________
 global.premium = process.env.GL_VIP || ["2348144317152"] // Premium User
 //________________________________________________________________________________________________________
@@ -87,10 +87,10 @@ global.groupevent = process.env.GROUP_ANNOUNCE_MSG || true //show update message
 //msg
 global.mess = {
 	limit: '_*Your limit is up!*_',
-	nsfw: '_*Nsfw is disabled in this group, Please tell the admin to enable*_',
-    done: '_*Done ✓*_',
-    error: '_*I am having error to execute this*_',
-    success: '_*Here you go!*_'
+	nsfw: '_*Nsfw is disabled in this group, Please tell the admin to enable, or contact sir wally jay tech the bot creator, thank you ♥ *_',
+    done: '_*Successful ✓*_',
+    error: '_*I am having error to execute this, please try again later dear*_',
+    success: '_*Here you go! wally jay tech did it*_'
 }
 //thumbnail
 global.thumb = fs.readFileSync('./WallyjaytechMedia/theme/Wallyjaytechpic.jpg')
