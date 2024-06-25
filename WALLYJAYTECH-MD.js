@@ -8187,6 +8187,46 @@ Cieeee, What's Going On❤️💖👀`,
           { quoted: m }
         );
         break;
+      case "gooddare":
+        const gooddare = [         
+"Pretend you are making sweet love to the couch for the next two minutes. Make it as real as possible.",
+"Pick up a random kids’ book and read it out loud in the most seductive voice.",
+"Go take your clothes off and perform a whole set of different somersaults.",
+"Using your hands, demonstrate a vivid description of your favorite sexual technique.",
+"Pick a banana or a carrot and take a video of you trying to put a condom on it.",
+"Show the least sexy part of your body through a video, describing why you dislike it.",
+"Go to the bathroom and take a voice recording of you making loud annoying grunting sounds.",
+"Make out with any of your body parts to any sensual song and take a short clip.",
+"Send me the nastiest text you could think of.",
+"Send a sexy selfie while naked.",
+"Walk to the fridge and pick any two different items then use them to portray a sexual act.",
+"I dare you to stay in your underwear for the remaining part of the game.",
+"Put on a winter jacket and take a video of you telling a dirty joke.",
+"Take a short clip of yourself outside shouting “Someone come sleep with me!",
+"Continue the rest of the game with your worst pair of underwear on your head.",
+"Sing me a song while half-naked and send me proof of it.",
+"Leave an R-rated audio note for me, assuming we were married.",
+"Walk outside and flirt with the first person you spot, regardless of the gender. And send a video of the same.",
+"Post a video on your favorite social media page, of you making out with the air in front of you.",
+"Put on all the pants you have and send a picture.",
+"Take a short clip of yourself presenting a talk about s#x technique as you would in a TED talk.",
+"Assuming you were a vampire, send a picture of you sucking the blood out of anyone around you.",
+"Go to your closet and change to the hottest outfit you have.",
+"Get someone close to you and touch tongues with you.",
+"Take a sexy crawl and make it look as sexy as possible.",
+"Put on your sister’s panties on your head and walk around the house shouting my name.",
+"Hold on to a broom assuming it’s a strip pole and do your sexiest dance with it.",
+"Send me the last dirty text you sent on your phone.",
+         ];
+        const xeongooddare = gooddare[Math.floor(Math.random() * gooddare.length)];
+        buffergooddare = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: buffergooddare, caption: "_You choose DARE_\n" + xeoncgooddare },
+          { quoted: m }
+        );
         break;
       case "truth":
         const truth = [
