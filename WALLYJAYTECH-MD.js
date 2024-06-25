@@ -11802,7 +11802,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -11954,7 +11954,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -12259,7 +12259,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -12411,7 +12411,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -12563,7 +12563,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -12715,7 +12715,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -12867,7 +12867,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -13171,7 +13171,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -13324,7 +13324,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -13476,7 +13476,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -13628,7 +13628,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -13780,7 +13780,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -13932,7 +13932,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -14084,7 +14084,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -14236,7 +14236,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -14388,7 +14388,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
                   externalAdReply: {
                     title: botname,
                     body: ownername,
-                    thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                    thumbnailUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55efdae6-518d-409a-9441-56018ee10b4e/dbu0ugf-20ba0a8e-be3b-4859-a348-89f132ff048c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1ZWZkYWU2LTUxOGQtNDA5YS05NDQxLTU2MDE4ZWUxMGI0ZVwvZGJ1MHVnZi0yMGJhMGE4ZS1iZTNiLTQ4NTktYTM0OC04OWYxMzJmZjA0OGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KD6oq6ELiw5ARXE0QqBdUe3h7uHhFO6qRY8jkLsiWDA",
                     sourceUrl: ``,
                     mediaType: 1,
                     renderLargerThumbnail: true,
@@ -14400,6 +14400,158 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
               }
             );
           }
+        }
+        break;
+      case "truthsanddaresmenu":
+        {
+          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${truthsanddaresmenu(
+            prefix,
+            hituet
+          )}`;
+          if (typemenu === "v1") {
+            XliconBotInc.sendMessage(
+              m.chat,
+              {
+                image: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechpic.jpg"),
+                caption: xmenu_oh,
+              },
+              {
+                quoted: m,
+              }
+            );
+          } else if (typemenu === "v2") {
+            XliconBotInc.sendMessage(
+              m.chat,
+              {
+                text: xmenu_oh,
+                contextInfo: {
+                  externalAdReply: {
+                    showAdAttribution: true,
+                    title: botname,
+                    body: ownername,
+                    thumbnail: fs.readFileSync(
+                      "./WallyjaytechMedia/theme/Wallyjaytechpic.jpg"
+                    ),
+                    sourceUrl: wagc,
+                    mediaType: 1,
+                    renderLargerThumbnail: true,
+                  },
+                },
+              },
+              {
+                quoted: m,
+              }
+            );
+          }
+          if (typemenu === "v3") {
+            XliconBotInc.sendMessage(
+              m.chat,
+              {
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid.mp4"),
+                caption: xmenu_oh,
+              },
+              {
+                quoted: m,
+              }
+            );
+          } else if (typemenu === "v4") {
+            XliconBotInc.sendMessage(
+              m.chat,
+              {
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid2.mp4"),
+                caption: xmenu_oh,
+                gifPlayback: true,
+              },
+              {
+                quoted: m,
+              }
+            );
+          } else if (typemenu === "v5") {
+            XliconBotInc.relayMessage(
+              m.chat,
+              {
+                scheduledCallCreationMessage: {
+                  callType: "AUDIO",
+                  scheduledTimestampMs: 1200,
+                  title: xmenu_oh,
+                },
+              },
+              {}
+            );
+          } else if (typemenu === "v6") {
+            XliconBotInc.relayMessage(
+              m.chat,
+              {
+                requestPaymentMessage: {
+                  currencyCodeIso4217: "USD",
+                  amount1000: "9999999900",
+                  requestFrom: m.sender,
+                  noteMessage: {
+                    extendedTextMessage: {
+                      text: xmenu_oh,
+                      contextInfo: {
+                        externalAdReply: {
+                          showAdAttribution: true,
+                        },
+                      },
+                    },
+                  },
+                },
+              },
+              {}
+            );
+          } else if (typemenu === "v7") {
+            XliconBotInc.sendMessage(
+              m.chat,
+              {
+                document: {
+                  url: "https://i.ibb.co/2W0H9Jq/avatar-contact.png",
+                },
+                caption: xmenu_oh,
+                mimetype: "application/zip",
+                fileName: ownername,
+                fileLength: "99999999999",
+                contextInfo: {
+                  externalAdReply: {
+                    showAdAttribution: true,
+                    title: botname,
+                    body: ownername,
+                    thumbnail: fs.readFileSync(
+                      "./WallyjaytechMedia/theme/Wallyjaytechpic.jpg"
+                    ),
+                    sourceUrl: wagc,
+                    mediaType: 1,
+                    renderLargerThumbnail: true,
+                  },
+                },
+              },
+              {
+                quoted: fstatus,
+              }
+            );
+          } else if (typemenu === "v8") {
+            XliconBotInc.sendMessage(
+              m.chat,
+              {
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
+                gifPlayback: true,
+                caption: xmenu_oh,
+                contextInfo: {
+                  externalAdReply: {
+                    title: botname,
+                    body: ownername,
+                    thumbnailUrl: "https://th.bing.com/th/id/R.4e760dd41c2870650b64e576d82bca02?rik=srZ%2bdDoHqyeNFw&pid=ImgRaw&r=0",
+                    sourceUrl: ``,
+                    mediaType: 1,
+                    renderLargerThumbnail: true,
+                  },
+                },
+              },
+              {
+                quoted: m,
+              }
+            );
+          }         
         }
         break;
       case "checkaccount":
