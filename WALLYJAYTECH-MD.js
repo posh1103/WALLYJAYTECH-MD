@@ -8492,13 +8492,48 @@ Cieeee, What's Going On❤️💖👀`,
          "Give someone horseback and gallop for a minute while on all fours.",
         ];
         const xeonflirtydare = flirtydare[Math.floor(Math.random() * flirtydare.length)];
-        bufferflirtydaree = await getBuffer(
+        bufferflirtydare = await getBuffer(
           `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
         );
         XliconBotInc.sendMessage(
           from,
           { image: bufferflirtydare, caption: "_You choose DARE_\n" + xeonflirtydare },
-          { quoted: m }         
+          { quoted: m }
+             );
+      break;
+      case "crazydare":
+        const crazydare = [
+                  "Shave your underarms on video chat.",
+         "ake a blindfolded selfie of yourself and post it on your timeline.",
+         "Wear wet clothes and walk outside with them.",
+         "Call a drug store and ask if they sell adult diapers.",
+         "Act like your favorite animal.",
+         "I dare you to pole dance with an imaginary pole.",
+         "Can you dare to make a sandwich blindfolded?",
+         "Describe your ideal butt size and shape.",
+         "Go through your partner’s call register without saying a word.",
+         "Describe your ideal booty shape and size.",
+         "Tell us the one bedtime secret no one knows about you.",
+         "Whisper to the person next to you the one secret you will rather die than let someone else know about it.",
+         "Write an erotic story of what you want to do to someone in case you get a chance to.",
+         "Describe your best bedroom experience in detail.",
+         "Go through your partner’s message without saying a word.",
+         "Describe our worst bedroom experience ever.",
+         "Tell us what going down on a man or woman is like.",
+         "Tell us the one sex position you will never repeat in your life again.",
+         "Say loud the one sex position that you feel is largely overrated.",
+         "Tell us one sex position that you strongly feel is largely underrated.",
+         "Call a random restaurant or any other place in your mind and tell the person who receives your call a dirty joke or story.",
+         "Drink two torts of your favorite drink on your body.",
+        ];
+        const xeoncrazydare = flirtydare[Math.floor(Math.random() * flirtydare.length)];
+        buffercrazydare = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: buffercrazydare, caption: "_You choose DARE_\n" + xeoncrazydare },
+          { quoted: m }
         );
         break;
       case "truth":
