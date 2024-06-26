@@ -1,6 +1,0 @@
-# heroku.yml file data to run Container
-# build:
-#   docker:
-#       web: Wallyjaytech_Md
-# run:
-#   web: npm start
