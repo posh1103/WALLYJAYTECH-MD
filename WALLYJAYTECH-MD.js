@@ -4975,7 +4975,7 @@ Type *surrender* to give up and admit defeat`;
               delete this.game;
               XliconBotInc.sendText(
                 m.chat,
-                `Berhasil delete session TicTacToe`,
+                 `Wally Jay Tech delete session TicTacToe`,
                 m
               );
             } else if (!this.game) {
@@ -11583,7 +11583,7 @@ ${listAdmin}
               image: {
                 url: `https://api-smd-1.vercel.app/api/maker/jail?url=${anu}`,
               },
-              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲  WALLY JAY TECH,
+              caption: "➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲  WALLY JAY TECH",
             },
             { quoted: m }
           );
