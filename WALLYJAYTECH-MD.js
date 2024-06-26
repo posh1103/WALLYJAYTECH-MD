@@ -4328,7 +4328,7 @@ ${themeemoji} URL: ${repoData.html_url}
                 showAdAttribution: true,
                 title: botname,
                 body: ownername,
-                thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                thumbnailUrl: "https://www.shutterstock.com/image-photo/technology-working-business-performance-speed-600nw-2348223119.jpg",
                 sourceUrl: wagc,
                 mediaType: 1,
                 renderLargerThumbnail: true,
@@ -8822,7 +8822,7 @@ Cieeee, What's Going On❤️💖👀`,
          "Change your Instagram username to something dirty and post a selfie. And leave it for 30 mins before you change it back.",
                 ];
         const xeonbestdare= bestdare[Math.floor(Math.random() * bestdare.length)];
-        bufferfriendsdare = await getBuffer(
+        bufferbestdare = await getBuffer(
           `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
         );
         XliconBotInc.sendMessage(
