@@ -3322,7 +3322,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
           }
           var text66 = `*==[ List of Whatsapp Numbers ]==*\n\n`;
           var nobio = `\n*Bio:* || \nHey there! I am using WhatsApp.\n`;
-          var nowhatsapp = `\n*Numbers with no WhatsApp account within provided range.*\n`;
+          var nowhatsapp = `\n*Number(s) with no WhatsApp account within provided range is/are below👇.*\n`;
           for (let i = 0; i < randomxx; i++) {
             var nu = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
             var status1 = nu[Math.floor(Math.random() * nu.length)];
@@ -3354,7 +3354,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
               } else {
                 text66 += `🪀 *Number:* wa.me/${
                   anu[0].jid.split("@")[0]
-                }\n 🎗️*Bio :* ${anu1.status}\n🧐*Last update :* ${moment(
+                }\n 🎗️ *Bio :* ${anu1.status}\n🧐 *Last update :* ${moment(
                   anu1.setAt
                 )
                   .tz("Africa/Lagos")
