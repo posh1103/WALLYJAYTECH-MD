@@ -6635,7 +6635,7 @@ ID Zone: ${q.split("|")[1]}`);
         {
           if (!q)
             return replygcXlicon(
-              `Example ${prefix + command} Sufway surfer mod`
+              `Example ${prefix + command} Temple Run Mod`
             );
           await XliconStickWait();
           let kat = await scp2.happymod(q);
