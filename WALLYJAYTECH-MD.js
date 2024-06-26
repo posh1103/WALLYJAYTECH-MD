@@ -3299,7 +3299,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
             return replygcXlicon(
               `*_Provide Number with last number x_*\n\nExample: ${
                 prefix + command
-              } 91690913721x`
+              } 23481443175x`
             );
           var inputnumber = text.split(" ")[0];
 
@@ -6225,7 +6225,7 @@ ${meg.result}`);
         break;
       case "weather":
         {
-          if (!text) return replygcXlicon("What location?");
+          if (!text) return replygcXlicon("What Country?");
           let city = text.split(" ")[0];
           let wdata = await axios.get(
             `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=060a6bcfa19809c2cd4d97a212b19273&language=en`
@@ -6261,7 +6261,7 @@ ${meg.result}`);
             return replygcXlicon(
               `Please send the link of a Facebook video\n\nEXAMPLE :\n*${
                 prefix + command
-              }* https://fb.watch/pLLTM4AFrO/?mibextid=Nif5oz`
+              }* https://www.facebook.com/reel/800126215378012?mibextid=rS40aB7S9Ucbxw6v`
             );
           }
           const urlRegex =
