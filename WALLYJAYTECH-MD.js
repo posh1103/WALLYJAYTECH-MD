@@ -6009,7 +6009,7 @@ ${meg.result}`);
         {
           if (!text)
             return replygcXlicon(
-              `Example : ${prefix + command} story wa anime`
+              `Example : ${prefix + command} wallyjaytechy`
             );
           let yts = require("yt-search");
           let search = await yts(text);
@@ -6106,7 +6106,7 @@ ${meg.result}`);
             replygcXlicon(
               `Where is the link??\n\nExample : ${
                 prefix + command
-              } https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`
+              } https://youtu.be/_zeJS0JCtp0?si=y5ONalAMDkBP163w 360p`
             );
           const vid = await xeonvidoh.mp4(text);
           const ytc = `
@@ -11152,7 +11152,7 @@ ${listAdmin}
         break;
       case "itunes":
         {
-          if (!text) return replygcXlicon("Please provide a song name");
+          if (!text) return replygcXlicon("Please provide a song name, idk wizkid");
           try {
             let res = await fetch(
               `https://api.popcat.xyz/itunes?q=${encodeURIComponent(text)}`
