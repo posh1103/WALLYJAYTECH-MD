@@ -2876,7 +2876,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
                 prefix + command
               } on\nExample: ${
                 prefix + command
-              } off\n\non to enable\noff to disable_*`
+              } off\n\non to enable\noff to disable`
             );
           }
         }
