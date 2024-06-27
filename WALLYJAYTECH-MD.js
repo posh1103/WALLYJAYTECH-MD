@@ -12149,6 +12149,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
 │➛ ${xprefix}sᴛɪᴄᴋᴇʀᴍᴇɴᴜ
 │➛ ${xprefix}ᴅᴀᴛᴀʙᴀsᴇᴍᴇɴᴜ
 │➛ ${xprefix}sᴛᴀʟᴋᴇʀᴍᴇɴᴜ
+│➛ ${xprefix}ɴsғᴡᴍᴇɴᴜ
 │➛ ${xprefix}ʙᴜɢᴍᴇɴᴜ
 │➛ ${xprefix}ᴛʀᴜᴛʜsᴀɴᴅᴅᴀʀᴇsᴍᴇɴᴜ
 │➛ ${xprefix}ᴏᴛʜᴇʀᴍᴇɴᴜ
