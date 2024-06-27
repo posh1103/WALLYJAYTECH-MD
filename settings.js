@@ -87,7 +87,7 @@ global.groupevent = process.env.GROUP_ANNOUNCE_MSG || true //show update message
 //msg
 global.mess = {
 	limit: '_*Your limit is up!*_',
-	nsfw: '_*Nsfw is disabled in this group, Please tell the admin to enable, or contact sir wally jay tech the bot creator, thank you ♥ *_',
+	nsfw: '_*Nsfw is disabled in this group, Please tell the admin to enable, or contact sir wally jay tech the bot creator, thank you ♥*_',
     done: '_*Successful ✓*_',
     error: '_*I am having error to execute this, please try again later dear*_',
     success: '_*Here you go! wally jay tech did it*_'
