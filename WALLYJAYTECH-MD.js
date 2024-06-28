@@ -723,8 +723,8 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
       if (typeof chats !== "object") global.db.data.chats[from] = {};
       if (chats) {
         if (!("badword" in chats)) chats.badword = true;
-        if (!("antiforeignnum" in chats)) chats.antiforeignnum = true;
-        if (!("antibot" in chats)) chats.antibot = true;
+        if (!("antiforeignnum" in chats)) chats.antiforeignnum = false;
+        if (!("antibot" in chats)) chats.antibot = false;
         if (!("antiviewonce" in chats)) chats.antiviewonce = true;
         if (!("antimedia" in chats)) chats.media = true;
         if (!("antivirtex" in chats)) chats.antivirtex = true;
@@ -741,8 +741,8 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
       } else
         global.db.data.chats[from] = {
           badword: true,
-          antiforeignnum: true,
-          antibot: true,
+          antiforeignnum: false,
+          antibot: false,
           antiviewonce: true,
           antivirtex: true,
           antimedia: true,
