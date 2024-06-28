@@ -163,11 +163,11 @@ function formatAfkDuration(ms) {
   let seconds = Math.floor(ms / 1000);
   let minutes = Math.floor(seconds / 60);
   let hours = Math.floor(minutes / 60);
-  let days = Math.floor(hours / 12);
+  let days = Math.floor(hours / 24);
 
   seconds %= 60;
   minutes %= 60;
-  hours %= 12;
+  hours %= 24;
 
   let parts = [];
   if (days) parts.push(days + " days");
