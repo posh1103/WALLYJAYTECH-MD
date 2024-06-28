@@ -4318,7 +4318,9 @@ ${themeemoji} URL: ${repoData.html_url}
         }
         break;
       case "runtime":
-        let pinga = `Wally Jay Tech Bots Have Been Running For ${runtime(process.uptime())}`;
+      case "uptime":
+      case "usedtime":
+        let pinga = `*Wally Jay Tech Bots Have Been Running For ${runtime(process.uptime())}*`;
         XliconBotInc.sendMessage(
           m.chat,
           {
