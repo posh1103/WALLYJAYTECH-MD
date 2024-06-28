@@ -722,40 +722,40 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
       let chats = global.db.data.chats[from];
       if (typeof chats !== "object") global.db.data.chats[from] = {};
       if (chats) {
-        if (!("badword" in chats)) chats.badword = false;
-        if (!("antiforeignnum" in chats)) chats.antiforeignnum = false;
-        if (!("antibot" in chats)) chats.antibot = false;
-        if (!("antiviewonce" in chats)) chats.antiviewonce = false;
-        if (!("antimedia" in chats)) chats.media = false;
-        if (!("antivirtex" in chats)) chats.antivirtex = false;
-        if (!("antiimage" in chats)) chats.antiimage = false;
-        if (!("antivideo" in chats)) chats.video = false;
-        if (!("antiaudio" in chats)) chats.antiaudio = false;
-        if (!("antipoll" in chats)) chats.antipoll = false;
-        if (!("antisticker" in chats)) chats.antisticker = false;
-        if (!("anticontact" in chats)) chats.anticontact = false;
-        if (!("antilocation" in chats)) chats.antilocation = false;
-        if (!("antidocument" in chats)) chats.antidocument = false;
-        if (!("antilink" in chats)) chats.antilink = false;
-        if (!("antilinkgc" in chats)) chats.antilinkgc = false;
+        if (!("badword" in chats)) chats.badword = true;
+        if (!("antiforeignnum" in chats)) chats.antiforeignnum = true;
+        if (!("antibot" in chats)) chats.antibot = true;
+        if (!("antiviewonce" in chats)) chats.antiviewonce = true;
+        if (!("antimedia" in chats)) chats.media = true;
+        if (!("antivirtex" in chats)) chats.antivirtex = true;
+        if (!("antiimage" in chats)) chats.antiimage = true;
+        if (!("antivideo" in chats)) chats.video = true;
+        if (!("antiaudio" in chats)) chats.antiaudio = true;
+        if (!("antipoll" in chats)) chats.antipoll = true;
+        if (!("antisticker" in chats)) chats.antisticker = true;
+        if (!("anticontact" in chats)) chats.anticontact = true;
+        if (!("antilocation" in chats)) chats.antilocation = true;
+        if (!("antidocument" in chats)) chats.antidocument = true;
+        if (!("antilink" in chats)) chats.antilink = true;
+        if (!("antilinkgc" in chats)) chats.antilinkgc = true;
       } else
         global.db.data.chats[from] = {
-          badword: false,
-          antiforeignnum: false,
-          antibot: false,
-          antiviewonce: false,
-          antivirtex: false,
-          antimedia: false,
-          antiimage: false,
-          antivideo: false,
-          antiaudio: false,
-          antipoll: false,
-          antisticker: false,
-          antilocation: false,
-          antidocument: false,
-          anticontact: false,
-          antilink: false,
-          antilinkgc: false,
+          badword: true,
+          antiforeignnum: true,
+          antibot: true,
+          antiviewonce: true,
+          antivirtex: true,
+          antimedia: true,
+          antiimage: true,
+          antivideo: true,
+          antiaudio: true,
+          antipoll: true,
+          antisticker: true,
+          antilocation: true,
+          antidocument: true,
+          anticontact: true,
+          antilink: true,
+          antilinkgc: true,
         };
 
       let setting = global.db.data.settings[botNumber];
@@ -763,12 +763,12 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
       if (setting) {
         if (!("totalhit" in setting)) setting.totalhit = 0;
         if (!("totalError" in setting)) setting.totalError = 0;
-        if (!("online" in setting)) setting.online = false;
-        if (!("autosticker" in setting)) setting.autosticker = false;
-        if (!("autobio" in setting)) setting.autobio = false;
-        if (!("autoread" in setting)) setting.autoread = false;
-        if (!("autorecordtype" in setting)) setting.autorecordtype = false;
-        if (!("autorecord" in setting)) setting.autorecord = false;
+        if (!("online" in setting)) setting.online = true;
+        if (!("autosticker" in setting)) setting.autosticker = true;
+        if (!("autobio" in setting)) setting.autobio = true;
+        if (!("autoread" in setting)) setting.autoread = true;
+        if (!("autorecordtype" in setting)) setting.autorecordtype = true;
+        if (!("autorecord" in setting)) setting.autorecord = true;
         if (!("autotype" in setting)) setting.autotype = false;
         if (!("autoblocknum" in setting)) setting.autoblocknum = false;
         if (!("onlyindia" in setting)) setting.onlyindia = false;
@@ -790,18 +790,18 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         global.db.data.settings[botNumber] = {
           totalhit: 0,
           totalError: 0,
-          online: false,
-          autosticker: false,
-          autobio: false,
-          autoread: false,
-          autoblocknum: false,
+          online: true,
+          autosticker: true,
+          autobio: true,
+          autoread: true,
+          autoblocknum: true,
           onlyindia: false,
           onlyindo: false,
           onlygrub: false,
           onlypc: false,
-          autorecordtype: false,
-          autorecord: false,
-          autotype: false,
+          autorecordtype: true,
+          autorecord: true,
+          autotype: true,
           watermark: {
             packname: global.packname,
             author: global.author,
