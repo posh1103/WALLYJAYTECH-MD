@@ -6169,7 +6169,7 @@ ${meg.result}`);
             XliconBotInc.sendMessage(
               from,
               {
-                caption: `➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 𝐗𝐋𝐈𝐂𝐎𝐍-𝐕𝟑�`,
+                caption: `➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALLY JAY TECH`,
                 video: { url: jsonxeon.result.url.nowm },
                 fileName: "video.mp4",
                 mimetype: "video/mp4",
@@ -9643,7 +9643,7 @@ Cieeee, What's Going On❤️💖👀`,
         await XliconBotInc.sendMessage(
           m.chat,
           {
-            caption: `➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 𝐗𝐋𝐈𝐂𝐎𝐍-𝐕𝟑�`,
+            caption: `➫ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 WALY JAY TECH`,
             image: { url: waifudd.data.url },
           },
           { quoted: m }
