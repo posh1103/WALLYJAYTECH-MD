@@ -10038,7 +10038,7 @@ Cieeee, What's Going On❤️💖👀`,
         var xeonyresultx = pickRandom(ahegaonsfw);
         await XliconBotInc.sendMessage(
           m.chat,
-          { video: xeonyresultx, gifPlayback: true },
+          { video: xeonyresultx, gifPlayback: false },
           { quoted: m }
         ).catch((err) => {});
         break;
