@@ -9905,20 +9905,6 @@ Cieeee, What's Going On❤️💖👀`,
           { quoted: m }
         );
         break;
-      case "nsfwloli":
-        if (!m.isGroup) return XeonStickGroup();
-        if (!AntiNsfw) return replygcXlicon(mess.nsfw);
-        await XliconStickWait();
-        var ahegaonsfw = JSON.parse(
-          fs.readFileSync("./src/media/nsfw/nsfwloli.json")
-        );
-        var xeonyresult = pickRandom(ahegaonsfw);
-        XliconBotInc.sendMessage(
-          m.chat,
-          { caption: mess.success, image: { url: xeonyresult.url } },
-          { quoted: m }
-        );
-        break;
       case "orgy":
         if (!m.isGroup) return XeonStickGroup();
         if (!AntiNsfw) return replygcXlicon(mess.nsfw);
