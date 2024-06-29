@@ -7606,7 +7606,6 @@ Cieeee, What's Going On❤️💖👀`,
       case "onepiece":
       case "pentol":
       case "pokemon":
-      case "programming":
       case "rize":
       case "rose":
       case "sagiri":
@@ -7906,10 +7905,6 @@ Cieeee, What's Going On❤️💖👀`,
           if (/profil/.test(command))
             heyy = await fetchJson(
               "https://raw.githubusercontent.com/DGXeon/XeonMedia/master/profil.json"
-            );
-          if (/progamming/.test(command))
-            heyy = await fetchJson(
-              "https://raw.githubusercontent.com/DGXeon/XeonMedia/master/programming.json"
             );
           if (/pubg/.test(command))
             heyy = await fetchJson(
