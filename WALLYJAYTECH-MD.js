@@ -7607,8 +7607,6 @@ Cieeee, What's Going On❤️💖👀`,
       case "pentol":
       case "pokemon":
       case "programming":
-      case "randomnime":
-      case "randomnime2":
       case "rize":
       case "rose":
       case "sagiri":
@@ -7920,14 +7918,6 @@ Cieeee, What's Going On❤️💖👀`,
           if (/randblackpink/.test(command))
             heyy = await fetchJson(
               "https://raw.githubusercontent.com/DGXeon/XeonMedia/master/randblackpink.json"
-            );
-          if (/randomnime/.test(command))
-            heyy = await fetchJson(
-              "https://raw.githubusercontent.com/DGXeon/XeonMedia/master/randomnime.json"
-            );
-          if (/randomnime2/.test(command))
-            heyy = await fetchJson(
-              "https://raw.githubusercontent.com/DGXeon/XeonMedia/master/randomnime2.json"
             );
           if (/rize/.test(command))
             heyy = await fetchJson(
