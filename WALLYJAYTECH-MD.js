@@ -767,7 +767,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         if (!("autosticker" in setting)) setting.autosticker = true;
         if (!("autobio" in setting)) setting.autobio = true;
         if (!("autoread" in setting)) setting.autoread = true;
-        if (!("autorecordtype" in setting)) setting.autorecordtype = true;
+        if (!("autorecordtype" in setting)) setting.autorecordtype = false;
         if (!("autorecord" in setting)) setting.autorecord = true;
         if (!("autotype" in setting)) setting.autotype = false;
         if (!("autoblocknum" in setting)) setting.autoblocknum = false;
@@ -799,9 +799,9 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
           onlyindo: false,
           onlygrub: false,
           onlypc: false,
-          autorecordtype: true,
+          autorecordtype: false,
           autorecord: true,
-          autotype: true,
+          autotype: false,
           watermark: {
             packname: global.packname,
             author: global.author,
