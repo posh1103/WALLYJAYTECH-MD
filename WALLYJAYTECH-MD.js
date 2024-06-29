@@ -8947,7 +8947,6 @@ Cieeee, What's Going On❤️💖👀`,
         break;
       case "woof":
       case "8ball":
-      case "goose":
       case "gecg":
       case "feed":
       case "avatar":
