@@ -7541,9 +7541,6 @@ Cieeee, What's Going On❤️💖👀`,
             case "waifu":
               fetchImage("waifu");
               break;
-            case "neko":
-              fetchImage("neko");
-              break;
             case "zerotwo":
               fetchImage("zerotwo");
               break;
@@ -7604,8 +7601,6 @@ Cieeee, What's Going On❤️💖👀`,
       case "minato":
       case "mountain":
       case "naruto":
-      case "neko":
-      case "neko2":
       case "nekonime":
       case "nezuko":
       case "onepiece":
@@ -7889,14 +7884,6 @@ Cieeee, What's Going On❤️💖👀`,
           if (/naruto/.test(command))
             heyy = await fetchJson(
               "https://raw.githubusercontent.com/DGXeon/XeonMedia/master/naruto.json"
-            );
-          if (/neko/.test(command))
-            heyy = await fetchJson(
-              "https://raw.githubusercontent.com/DGXeon/XeonMedia/master/neko.json"
-            );
-          if (/neko2/.test(command))
-            heyy = await fetchJson(
-              "https://raw.githubusercontent.com/DGXeon/XeonMedia/master/neko2.json"
             );
           if (/nekonime/.test(command))
             heyy = await fetchJson(
