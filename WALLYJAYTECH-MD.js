@@ -8329,7 +8329,7 @@ Cieeee, What's Going On❤️💖👀`,
         );
         XliconBotInc.sendMessage(
           from,
-          { image: buffernaughtydaree, caption: "_You choose DARE_\n" + xeonnaughtydare },
+          { image: buffernaughtydare, caption: "_You choose DARE_\n" + xeonnaughtydare },
           { quoted: m } 
                  );
       break;
