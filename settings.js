@@ -33,15 +33,15 @@ global.location = process.env.GL_INFO || "Nigria, Osun, Ife" //ur location
 
 //new
 //________________________________________________________________________________________________________
-global.botname = process.env.BOT_NAME || 'WALLYJAYTECH-MD' //ur bot name
+global.botname = process.env.BOT_NAME || 'POSH-MD' //ur bot name
 //________________________________________________________________________________________________________
-global.ownernumber = process.env.SUDO || '2348144317152' //ur owner number
+global.ownernumber = process.env.SUDO || '2349066686756' //ur owner number
 //________________________________________________________________________________________________________
-global.ownername = process.env.SUDO_NAME || 'WALLY JAY' //ur owner name
+global.ownername = process.env.SUDO_NAME || 'POSH-MD' //ur owner name
 //________________________________________________________________________________________________________
 global.websitex = process.env.YT_LINK || "https://youtube.com/@wallyjaytechy"
 //________________________________________________________________________________________________________
-global.wagc = process.env.GL_PUSH || "https://wa.me/2348144317152"
+global.wagc = process.env.GL_PUSH || "https://wa.me/2349066686756"
 //________________________________________________________________________________________________________
 global.themeemoji = process.env.GL_EMOJI || '🤖'
 //________________________________________________________________________________________________________
@@ -53,11 +53,11 @@ global.packname = process.env.PACK_NAME || "WALLYJAYTECH-MD"
 //________________________________________________________________________________________________________
 global.author = process.env.AUTHER_NAME || "MADE BY WALLY JAY TECH"
 //________________________________________________________________________________________________________
-global.creator = process.env.GL_DEVS || "2348144317152@s.whatsapp.net"
+global.creator = process.env.GL_DEVS || "2349066686756@s.whatsapp.net"
 //________________________________________________________________________________________________________
 global.xprefix = process.env.PREFIX || '.'
 //________________________________________________________________________________________________________
-global.premium = process.env.GL_VIP || ["2348144317152"] // Premium User
+global.premium = process.env.GL_VIP || ["2349066686756"] // Premium User
 //________________________________________________________________________________________________________
 global.hituet = 0
 //________________________________________________________________________________________________________
